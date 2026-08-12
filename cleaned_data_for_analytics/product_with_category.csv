@@ -1,0 +1,601 @@
+category_id,category_name,department,product_id,product_name,product_brand,cost_price,unit_price,stock_quantity,is_active,created_date,avg_rating
+1001,Mobiles & Accessories,Electronics,5000,boAt Premium Smartphone,boAt,23874.66,38584.86,100,1,2024-11-11,4.0
+1001,Mobiles & Accessories,Electronics,5001,boAt Pro Earbuds,boAt,15411.68,26773.87,5,1,2023-01-27,4.0
+1001,Mobiles & Accessories,Electronics,5002,Apple Classic Power Bank,Apple,43454.86,66294.67,0,0,2023-10-20,4.6
+1001,Mobiles & Accessories,Electronics,5003,Xiaomi Classic Smartphone,Xiaomi,14475.49,23801.91,20,1,2023-08-26,4.4
+1001,Mobiles & Accessories,Electronics,5004,Apple Premium Power Bank,Apple,20372.26,33970.22,50,1,2025-02-23,3.0
+1001,Mobiles & Accessories,Electronics,5005,Xiaomi Signature Power Bank,Xiaomi,12013.78,18139.42,20,1,2024-12-21,4.3
+1001,Mobiles & Accessories,Electronics,5006,Noise Premium Charger,Noise,47067.52,62635.2,20,1,2025-08-08,4.0
+1001,Mobiles & Accessories,Electronics,5007,OnePlus Everyday Phone Case,OnePlus,13500.97,22926.92,50,1,2023-04-03,4.2
+1001,Mobiles & Accessories,Electronics,5008,Samsung Classic Charger,Samsung,14377.3,22291.01,100,1,2024-03-25,3.9
+1001,Mobiles & Accessories,Electronics,5009,Apple Everyday Charger,Apple,18420.38,29896.89,5,1,2023-02-01,3.5
+1001,Mobiles & Accessories,Electronics,5010,Apple Comfort Smartphone,Apple,26393.73,45411.96,20,1,2023-08-21,3.4
+1001,Mobiles & Accessories,Electronics,5011,Apple Classic Phone Case,Apple,9656.91,15493.34,250,1,2024-06-22,4.2
+1001,Mobiles & Accessories,Electronics,5012,Apple Everyday Power Bank,Apple,26041.53,43542.45,5,1,2023-01-29,4.2
+1001,Mobiles & Accessories,Electronics,5013,boAt Premium Smartphone,boAt,17243.07,28408.23,50,1,2023-07-31,3.9
+1001,Mobiles & Accessories,Electronics,5014,Noise Classic Charger,Noise,14540.36,23907.29,20,1,2024-11-23,4.7
+1001,Mobiles & Accessories,Electronics,5015,OnePlus Signature Smartphone,OnePlus,23478.77,35394.1,5,0,2024-08-03,3.9
+1001,Mobiles & Accessories,Electronics,5016,OnePlus Pro Charger,OnePlus,13706.99,21456.81,0,1,2023-08-23,4.5
+1001,Mobiles & Accessories,Electronics,5017,Apple Classic Charger,Apple,35721.14,50400.59,100,1,2024-09-19,4.7
+1001,Mobiles & Accessories,Electronics,5018,Xiaomi Essential Power Bank,Xiaomi,13167.81,19784.41,100,1,2025-05-12,3.9
+1001,Mobiles & Accessories,Electronics,5019,Xiaomi Smart Charger,Xiaomi,17081.78,23686.75,20,1,2023-01-07,4.0
+1002,Laptops & Computers,Electronics,5020,HP Essential Laptop,HP,61275.93,81564.05,100,1,2025-05-08,4.9
+1002,Laptops & Computers,Electronics,5021,HP Deluxe Monitor,HP,39239.49,65101.24,100,1,2025-01-13,3.7
+1002,Laptops & Computers,Electronics,5022,Dell Everyday Laptop Bag,Dell,38097.31,53368.07,50,1,2023-12-29,5.0
+1002,Laptops & Computers,Electronics,5023,Dell Comfort Monitor,Dell,34970.26,56749.63,20,1,2023-06-15,3.9
+1002,Laptops & Computers,Electronics,5024,Acer Smart Keyboard,Acer,29972.21,48681.04,50,1,2025-10-16,4.3
+1002,Laptops & Computers,Electronics,5025,Acer Signature Laptop Bag,Acer,23567.42,36265.93,250,1,2023-12-25,3.8
+1002,Laptops & Computers,Electronics,5026,Acer Pro Keyboard,Acer,57822.6,85869.33,100,1,2023-04-09,4.3
+1002,Laptops & Computers,Electronics,5027,Dell Classic Laptop,Dell,40315.82,57034.96,100,1,2023-04-14,4.7
+1002,Laptops & Computers,Electronics,5028,HP Ultra Monitor,HP,24715.74,38248.3,20,1,2025-06-21,3.9
+1002,Laptops & Computers,Electronics,5029,Acer Comfort Laptop Bag,Acer,38611.75,63003.22,0,1,2024-10-04,4.3
+1002,Laptops & Computers,Electronics,5030,Apple Premium Laptop Bag,Apple,19550.03,26774.24,20,1,2025-05-09,3.8
+1002,Laptops & Computers,Electronics,5031,Apple Deluxe Laptop Bag,Apple,31830.39,50123.14,50,1,2025-02-16,4.3
+1002,Laptops & Computers,Electronics,5032,Dell Signature Mouse,Dell,40999.93,61799.84,250,1,2024-07-25,4.1
+1002,Laptops & Computers,Electronics,5033,Dell Smart Mouse,Dell,14091.03,20816.38,20,1,2025-11-02,4.1
+1002,Laptops & Computers,Electronics,5034,Apple Deluxe Laptop,Apple,37903.08,55993.79,5,1,2024-02-08,5.0
+1002,Laptops & Computers,Electronics,5035,Lenovo Pro Keyboard,Lenovo,36550.24,49350.36,20,1,2024-08-10,4.3
+1002,Laptops & Computers,Electronics,5036,HP Smart Laptop Bag,HP,67321.87,96210.36,20,1,2025-06-02,4.6
+1002,Laptops & Computers,Electronics,5037,HP Premium Monitor,HP,85710.34,109565.53,50,1,2024-10-20,3.3
+1002,Laptops & Computers,Electronics,5038,HP Essential Mouse,HP,20204.76,33110.73,5,1,2025-07-06,3.8
+1002,Laptops & Computers,Electronics,5039,HP Classic Laptop Bag,HP,18341.25,25022.96,50,1,2024-09-06,4.1
+1003,Cameras,Electronics,5040,Nikon Smart DSLR Camera,Nikon,16234.3,27889.3,250,1,2025-01-20,5.0
+1003,Cameras,Electronics,5041,Nikon Smart Camera Lens,Nikon,18398.13,29854.29,250,1,2023-02-18,3.9
+1003,Cameras,Electronics,5042,Nikon Essential Camera Lens,Nikon,48307.44,66334.75,100,1,2023-08-31,3.4
+1003,Cameras,Electronics,5043,GoPro Everyday Camera Lens,GoPro,15320.58,19770.95,5,1,2023-11-05,4.2
+1003,Cameras,Electronics,5044,Nikon Classic Camera Lens,Nikon,30487.27,50294.55,20,1,2023-03-26,4.6
+1003,Cameras,Electronics,5045,Nikon Premium Tripod,Nikon,39969.4,57335.85,100,1,2023-09-05,4.3
+1003,Cameras,Electronics,5046,Canon Classic DSLR Camera,Canon,19088.85,31435.66,20,1,2023-04-18,4.2
+1003,Cameras,Electronics,5047,Canon Everyday DSLR Camera,Canon,34697.87,51136.14,0,1,2023-10-24,3.7
+1003,Cameras,Electronics,5048,Nikon Comfort Tripod,Nikon,76878.52,112262.8,100,1,2024-11-08,4.4
+1003,Cameras,Electronics,5049,GoPro Essential Camera Lens,GoPro,20397.82,27129.3,20,1,2024-01-24,4.6
+1003,Cameras,Electronics,5050,Canon Classic Action Camera,Canon,51101.55,71496.13,100,1,2024-01-30,4.3
+1003,Cameras,Electronics,5051,GoPro Signature Tripod,GoPro,26047.72,39066.34,20,1,2023-08-12,3.6
+1003,Cameras,Electronics,5052,Canon Classic DSLR Camera,Canon,27650.09,42495.76,100,1,2023-10-12,4.3
+1003,Cameras,Electronics,5053,Nikon Classic Tripod,Nikon,26578.97,44454.06,50,1,2025-09-24,5.0
+1003,Cameras,Electronics,5054,GoPro Pro Camera Lens,GoPro,35983.47,60387.91,20,1,2024-11-21,3.6
+1003,Cameras,Electronics,5055,Canon Essential Camera Lens,Canon,17084.62,25855.13,250,0,2024-10-10,4.4
+1003,Cameras,Electronics,5056,Canon Premium DSLR Camera,Canon,31291.44,39496.97,0,1,2023-07-02,4.5
+1003,Cameras,Electronics,5057,GoPro Pro Action Camera,GoPro,37569.75,55956.47,250,1,2025-02-15,4.1
+1003,Cameras,Electronics,5058,Canon Signature Action Camera,Canon,17096.75,28920.72,100,1,2023-06-24,3.2
+1003,Cameras,Electronics,5059,Sony Signature DSLR Camera,Sony,38421.91,49156.16,250,1,2024-02-09,3.4
+1004,Wearables,Electronics,5060,Apple Deluxe Fitness Band,Apple,5554.4,7670.26,50,0,2025-11-19,4.2
+1004,Wearables,Electronics,5061,Noise Pro Fitness Band,Noise,7668.05,12285.06,100,1,2024-11-12,3.4
+1004,Wearables,Electronics,5062,Samsung Ultra Smartwatch,Samsung,11591.82,20507.8,50,1,2024-08-16,4.7
+1004,Wearables,Electronics,5063,boAt Premium Fitness Band,boAt,10745.16,15437.47,100,1,2024-12-30,4.4
+1004,Wearables,Electronics,5064,Samsung Premium Smartwatch,Samsung,8799.84,15437.56,100,1,2025-06-16,5.0
+1004,Wearables,Electronics,5065,Samsung Classic Smartwatch,Samsung,10901.14,19226.33,100,1,2025-04-06,4.5
+1004,Wearables,Electronics,5066,boAt Signature Smartwatch,boAt,6368.12,8108.13,50,1,2023-09-01,4.0
+1004,Wearables,Electronics,5067,Samsung Ultra Smartwatch,Samsung,19597.18,34999.0,20,1,2023-02-04,3.0
+1004,Wearables,Electronics,5068,Samsung Signature Smartwatch,Samsung,6515.23,9424.51,20,1,2023-12-02,4.8
+1004,Wearables,Electronics,5069,Noise Deluxe Fitness Band,Noise,5986.76,8344.71,50,1,2023-10-13,4.5
+1004,Wearables,Electronics,5070,Fire-Boltt Essential Fitness Band,Fire-Boltt,7922.13,12207.68,50,1,2023-08-13,3.7
+1004,Wearables,Electronics,5071,Fire-Boltt Comfort Fitness Band,Fire-Boltt,3391.03,4334.94,100,1,2025-10-01,4.2
+1004,Wearables,Electronics,5072,Apple Premium Smartwatch,Apple,5662.54,8028.67,0,0,2025-07-22,4.0
+1004,Wearables,Electronics,5073,Samsung Classic Smartwatch,Samsung,9266.57,15360.1,50,1,2023-12-02,4.6
+1004,Wearables,Electronics,5074,Fire-Boltt Pro Fitness Band,Fire-Boltt,7247.98,9410.32,50,1,2024-11-29,3.7
+1004,Wearables,Electronics,5075,Fire-Boltt Everyday Smartwatch,Fire-Boltt,3744.36,6352.43,250,1,2024-02-26,4.7
+1004,Wearables,Electronics,5076,Samsung Ultra Fitness Band,Samsung,19031.02,34479.25,50,1,2025-08-31,4.7
+1004,Wearables,Electronics,5077,Noise Classic Fitness Band,Noise,13851.81,22482.46,0,1,2024-05-03,3.7
+1004,Wearables,Electronics,5078,Noise Smart Smartwatch,Noise,9207.91,14897.44,50,1,2023-10-10,4.6
+1004,Wearables,Electronics,5079,Noise Everyday Smartwatch,Noise,1703.59,2359.96,20,1,2023-09-20,3.5
+1006,Men's Clothing,Fashion,5080,FitPro Smart Jeans,FitPro,2447.76,3994.52,50,1,2024-08-20,3.2
+1006,Men's Clothing,Fashion,5081,BasicWear Classic T-Shirt,BasicWear,2381.18,3630.44,50,1,2023-10-07,3.2
+1006,Men's Clothing,Fashion,5082,Urbanic Premium Jeans,Urbanic,684.74,1081.08,5,1,2024-09-14,4.4
+1006,Men's Clothing,Fashion,5083,PrimeStyle Deluxe Shirt,PrimeStyle,1344.67,1828.72,250,1,2025-08-14,3.9
+1006,Men's Clothing,Fashion,5084,KidJoy Signature Trackpants,KidJoy,2156.04,3902.92,50,1,2024-03-01,3.4
+1006,Men's Clothing,Fashion,5085,KidJoy Pro T-Shirt,KidJoy,915.06,1636.93,250,1,2023-08-22,4.5
+1006,Men's Clothing,Fashion,5086,KidJoy Ultra Jeans,KidJoy,1193.06,2032.39,5,1,2025-11-28,3.7
+1006,Men's Clothing,Fashion,5087,TrendKart Premium Shirt,TrendKart,843.3,1315.26,20,1,2024-06-26,4.6
+1006,Men's Clothing,Fashion,5088,DailyBasics Everyday T-Shirt,DailyBasics,1995.18,2769.09,100,1,2023-04-07,4.3
+1006,Men's Clothing,Fashion,5089,ChefMate Everyday T-Shirt,ChefMate,805.02,1166.75,100,1,2023-02-20,3.8
+1006,Men's Clothing,Fashion,5090,GlowUp Ultra Jacket,GlowUp,1028.73,1747.64,50,1,2023-04-27,4.2
+1006,Men's Clothing,Fashion,5091,ChefMate Pro Shirt,ChefMate,1747.47,2321.62,100,1,2024-10-30,4.0
+1006,Men's Clothing,Fashion,5092,PrimeStyle Premium Jacket,PrimeStyle,1958.88,2668.26,20,1,2025-04-23,4.6
+1006,Men's Clothing,Fashion,5093,ChefMate Signature Jeans,ChefMate,2433.77,3392.12,20,1,2024-03-25,4.1
+1006,Men's Clothing,Fashion,5094,PrimeStyle Deluxe Shirt,PrimeStyle,1551.0,2076.74,250,1,2023-03-09,4.0
+1006,Men's Clothing,Fashion,5095,Urbanic Signature T-Shirt,Urbanic,896.97,1173.05,20,1,2024-02-11,5.0
+1006,Men's Clothing,Fashion,5096,FitPro Essential Shirt,FitPro,2008.6,3151.17,100,1,2025-11-26,4.6
+1006,Men's Clothing,Fashion,5097,Urbanic Essential Shirt,Urbanic,1255.0,1755.22,5,1,2024-07-17,3.6
+1006,Men's Clothing,Fashion,5098,TrendKart Everyday Jacket,TrendKart,2202.99,2875.64,50,1,2025-10-31,4.0
+1006,Men's Clothing,Fashion,5099,BasicWear Everyday Jeans,BasicWear,1470.52,2170.99,50,1,2025-07-05,3.8
+1007,Women's Clothing,Fashion,5100,Urbanic Everyday Leggings,Urbanic,1384.41,2391.72,5,1,2023-01-13,3.8
+1007,Women's Clothing,Fashion,5101,AutoZen Pro Dress,AutoZen,1321.92,1671.98,5,0,2025-02-06,4.2
+1007,Women's Clothing,Fashion,5102,HouseCraft Premium Dress,HouseCraft,717.19,1025.81,100,0,2024-12-27,3.3
+1007,Women's Clothing,Fashion,5103,PureGlow Everyday Dress,PureGlow,1036.49,1477.43,100,1,2024-07-25,4.0
+1007,Women's Clothing,Fashion,5104,PureGlow Classic Leggings,PureGlow,2517.6,3249.03,20,1,2023-10-12,4.0
+1007,Women's Clothing,Fashion,5105,Urbanic Deluxe Saree,Urbanic,1524.57,2096.5,5,1,2024-11-13,3.9
+1007,Women's Clothing,Fashion,5106,ChefMate Smart Kurti,ChefMate,1702.31,2486.53,100,1,2023-04-29,3.6
+1007,Women's Clothing,Fashion,5107,PureGlow Everyday Saree,PureGlow,1137.26,2004.0,20,1,2024-04-08,4.3
+1007,Women's Clothing,Fashion,5108,NovaHome Ultra Dress,NovaHome,1694.32,2366.88,5,1,2024-04-28,4.1
+1007,Women's Clothing,Fashion,5109,KidJoy Deluxe Kurti,KidJoy,1343.78,2142.09,50,1,2025-10-12,4.4
+1007,Women's Clothing,Fashion,5110,PureGlow Everyday Top,PureGlow,4345.09,5999.0,50,1,2025-07-21,3.6
+1007,Women's Clothing,Fashion,5111,DailyBasics Pro Leggings,DailyBasics,3930.01,5999.0,20,1,2023-10-08,3.6
+1007,Women's Clothing,Fashion,5112,AutoZen Pro Top,AutoZen,506.52,731.67,50,1,2024-06-17,3.8
+1007,Women's Clothing,Fashion,5113,Urbanic Smart Top,Urbanic,1571.38,2510.31,20,1,2023-07-10,5.0
+1007,Women's Clothing,Fashion,5114,ChefMate Signature Saree,ChefMate,938.45,1350.29,250,1,2025-08-29,4.4
+1007,Women's Clothing,Fashion,5115,FitPro Comfort Dress,FitPro,722.32,1093.53,250,1,2025-07-16,5.0
+1007,Women's Clothing,Fashion,5116,FitPro Smart Saree,FitPro,2856.15,3816.17,250,1,2023-11-14,3.8
+1007,Women's Clothing,Fashion,5117,TrendKart Classic Saree,TrendKart,609.95,898.49,250,1,2024-11-11,4.9
+1007,Women's Clothing,Fashion,5118,HouseCraft Everyday Leggings,HouseCraft,1507.87,1998.22,50,1,2024-10-10,4.8
+1007,Women's Clothing,Fashion,5119,DailyBasics Deluxe Saree,DailyBasics,1594.65,2121.56,100,0,2023-06-12,4.1
+1008,Footwear,Fashion,5120,Urbanic Premium Sandals,Urbanic,1366.2,2235.24,50,1,2025-03-23,4.5
+1008,Footwear,Fashion,5121,ChefMate Ultra Formal Shoes,ChefMate,1689.21,2972.87,20,1,2024-07-28,4.4
+1008,Footwear,Fashion,5122,DailyBasics Ultra Formal Shoes,DailyBasics,948.43,1299.95,20,1,2025-04-09,4.9
+1008,Footwear,Fashion,5123,PureGlow Comfort Formal Shoes,PureGlow,3714.68,6079.71,50,1,2024-07-18,4.2
+1008,Footwear,Fashion,5124,ChefMate Classic Running Shoes,ChefMate,5147.94,7844.05,100,1,2023-01-01,5.0
+1008,Footwear,Fashion,5125,FitPro Smart Sandals,FitPro,2174.51,3865.42,100,1,2023-12-12,4.9
+1008,Footwear,Fashion,5126,FitPro Classic Sandals,FitPro,2772.08,4752.13,50,1,2023-01-21,3.0
+1008,Footwear,Fashion,5127,KidJoy Smart Formal Shoes,KidJoy,1709.8,2446.55,50,1,2025-09-16,4.5
+1008,Footwear,Fashion,5128,GlowUp Ultra Formal Shoes,GlowUp,4885.25,6319.81,100,0,2025-07-24,3.3
+1008,Footwear,Fashion,5129,FitPro Smart Formal Shoes,FitPro,924.87,1194.46,50,0,2025-06-04,4.1
+1008,Footwear,Fashion,5130,TrendKart Comfort Formal Shoes,TrendKart,734.75,995.67,50,1,2023-11-24,4.0
+1008,Footwear,Fashion,5131,FitPro Smart Sneakers,FitPro,2376.23,3362.49,20,1,2023-03-03,3.5
+1008,Footwear,Fashion,5132,HouseCraft Comfort Sneakers,HouseCraft,1976.08,2712.96,100,1,2025-07-24,4.7
+1008,Footwear,Fashion,5133,NovaHome Deluxe Sandals,NovaHome,1352.7,2147.39,20,1,2025-10-05,3.6
+1008,Footwear,Fashion,5134,PrimeStyle Pro Running Shoes,PrimeStyle,1612.81,2653.46,20,1,2023-04-02,3.5
+1008,Footwear,Fashion,5135,HouseCraft Essential Sandals,HouseCraft,4887.41,7476.34,5,1,2024-06-01,4.1
+1008,Footwear,Fashion,5136,FitPro Smart Sneakers,FitPro,1290.18,1972.93,100,1,2023-03-15,4.2
+1008,Footwear,Fashion,5137,PureGlow Signature Sandals,PureGlow,2054.2,2646.45,100,1,2025-03-21,4.0
+1008,Footwear,Fashion,5138,PureGlow Ultra Running Shoes,PureGlow,1436.96,2147.13,50,1,2025-03-26,3.8
+1008,Footwear,Fashion,5139,ChefMate Deluxe Sneakers,ChefMate,849.72,1312.31,50,1,2023-05-17,4.9
+1009,Watches & Bags,Fashion,5140,GlowUp Smart Wallet,GlowUp,4403.92,6002.69,50,1,2024-05-21,4.3
+1009,Watches & Bags,Fashion,5141,DailyBasics Comfort Handbag,DailyBasics,2609.3,4220.57,50,1,2024-08-08,3.5
+1009,Watches & Bags,Fashion,5142,PureGlow Premium Wallet,PureGlow,1954.43,3082.54,0,1,2023-10-10,3.2
+1009,Watches & Bags,Fashion,5143,FitPro Pro Wallet,FitPro,2539.67,3256.47,20,1,2025-07-18,3.5
+1009,Watches & Bags,Fashion,5144,AutoZen Signature Wrist Watch,AutoZen,7228.46,10459.39,100,1,2024-03-26,4.6
+1009,Watches & Bags,Fashion,5145,BasicWear Classic Wrist Watch,BasicWear,3073.37,4676.8,50,1,2023-08-14,3.6
+1009,Watches & Bags,Fashion,5146,Urbanic Pro Wallet,Urbanic,1647.46,2678.63,20,1,2024-07-28,4.0
+1009,Watches & Bags,Fashion,5147,FitPro Essential Backpack,FitPro,4516.31,7149.33,50,0,2025-02-16,5.0
+1009,Watches & Bags,Fashion,5148,ChefMate Deluxe Wallet,ChefMate,1761.44,2235.9,20,1,2023-08-03,4.4
+1009,Watches & Bags,Fashion,5149,HouseCraft Deluxe Wallet,HouseCraft,2169.52,3249.85,20,1,2023-11-28,3.8
+1009,Watches & Bags,Fashion,5150,DailyBasics Everyday Wrist Watch,DailyBasics,3284.67,4609.83,50,0,2025-11-25,3.6
+1009,Watches & Bags,Fashion,5151,DailyBasics Premium Wrist Watch,DailyBasics,2394.95,3992.65,250,1,2024-11-23,3.6
+1009,Watches & Bags,Fashion,5152,PrimeStyle Ultra Wrist Watch,PrimeStyle,2055.77,3372.13,20,1,2024-04-11,4.6
+1009,Watches & Bags,Fashion,5153,AutoZen Classic Wallet,AutoZen,3721.0,4728.44,50,1,2024-07-05,4.6
+1009,Watches & Bags,Fashion,5154,ChefMate Deluxe Wallet,ChefMate,2074.67,3230.44,20,1,2023-05-09,4.4
+1009,Watches & Bags,Fashion,5155,TrendKart Pro Wrist Watch,TrendKart,1150.6,1994.03,20,1,2023-08-28,4.1
+1009,Watches & Bags,Fashion,5156,AutoZen Deluxe Wrist Watch,AutoZen,4453.99,6191.8,20,1,2023-12-27,3.1
+1009,Watches & Bags,Fashion,5157,GlowUp Signature Wallet,GlowUp,1947.39,3247.91,20,1,2024-09-18,4.1
+1009,Watches & Bags,Fashion,5158,GlowUp Classic Handbag,GlowUp,5529.94,7441.52,20,1,2023-09-03,3.8
+1009,Watches & Bags,Fashion,5159,ChefMate Ultra Wrist Watch,ChefMate,3285.41,5864.0,50,1,2023-08-23,5.0
+1011,Kitchen Appliances,Home & Kitchen,5160,HouseCraft Everyday Air Fryer,HouseCraft,7763.11,11475.57,100,0,2023-03-17,4.0
+1011,Kitchen Appliances,Home & Kitchen,5161,PureGlow Premium Electric Kettle,PureGlow,7822.4,10352.81,250,1,2024-11-03,3.7
+1011,Kitchen Appliances,Home & Kitchen,5162,NovaHome Signature Mixer Grinder,NovaHome,6365.76,8979.82,50,1,2023-09-01,4.0
+1011,Kitchen Appliances,Home & Kitchen,5163,PureGlow Pro Air Fryer,PureGlow,6047.64,10180.62,20,1,2025-08-22,3.9
+1011,Kitchen Appliances,Home & Kitchen,5164,ChefMate Ultra Electric Kettle,ChefMate,8168.84,10474.15,100,1,2025-07-04,3.8
+1011,Kitchen Appliances,Home & Kitchen,5165,PureGlow Comfort Air Fryer,PureGlow,10055.37,13293.13,50,1,2023-03-17,3.9
+1011,Kitchen Appliances,Home & Kitchen,5166,DailyBasics Everyday Electric Kettle,DailyBasics,2351.69,3103.79,50,1,2023-09-11,3.5
+1011,Kitchen Appliances,Home & Kitchen,5167,FitPro Deluxe Mixer Grinder,FitPro,5302.51,8678.89,20,1,2024-12-13,5.0
+1011,Kitchen Appliances,Home & Kitchen,5168,AutoZen Ultra Air Fryer,AutoZen,9335.03,13018.71,250,1,2023-08-17,2.8
+1011,Kitchen Appliances,Home & Kitchen,5169,FitPro Premium Electric Kettle,FitPro,3131.62,4105.76,20,1,2023-05-21,4.8
+1011,Kitchen Appliances,Home & Kitchen,5170,DailyBasics Comfort Microwave Oven,DailyBasics,7536.55,11799.72,100,1,2025-09-23,5.0
+1011,Kitchen Appliances,Home & Kitchen,5171,TrendKart Everyday Electric Kettle,TrendKart,5263.22,6834.64,20,1,2024-08-31,3.6
+1011,Kitchen Appliances,Home & Kitchen,5172,Urbanic Smart Electric Kettle,Urbanic,6053.07,8912.62,100,1,2024-05-18,3.8
+1011,Kitchen Appliances,Home & Kitchen,5173,DailyBasics Classic Microwave Oven,DailyBasics,10546.24,14446.54,20,1,2025-04-15,3.8
+1011,Kitchen Appliances,Home & Kitchen,5174,ChefMate Smart Air Fryer,ChefMate,4584.05,7513.84,100,1,2025-05-09,3.5
+1011,Kitchen Appliances,Home & Kitchen,5175,FitPro Comfort Air Fryer,FitPro,9394.63,12555.75,100,1,2023-07-22,3.5
+1011,Kitchen Appliances,Home & Kitchen,5176,DailyBasics Deluxe Mixer Grinder,DailyBasics,6884.76,10574.04,20,1,2023-04-14,5.0
+1011,Kitchen Appliances,Home & Kitchen,5177,BasicWear Deluxe Microwave Oven,BasicWear,2457.25,3533.63,50,0,2024-04-04,5.0
+1011,Kitchen Appliances,Home & Kitchen,5178,KidJoy Smart Air Fryer,KidJoy,6290.35,9891.43,50,1,2024-03-27,3.4
+1011,Kitchen Appliances,Home & Kitchen,5179,GlowUp Everyday Electric Kettle,GlowUp,6025.86,9082.8,100,1,2024-05-12,4.5
+1012,Furniture,Home & Kitchen,5180,DailyBasics Deluxe Bookshelf,DailyBasics,8010.16,13806.72,50,1,2025-02-15,4.4
+1012,Furniture,Home & Kitchen,5181,HouseCraft Everyday Office Chair,HouseCraft,33450.96,45466.95,250,1,2024-12-18,3.8
+1012,Furniture,Home & Kitchen,5182,DailyBasics Essential Office Chair,DailyBasics,9181.87,12498.27,250,1,2025-11-14,4.0
+1012,Furniture,Home & Kitchen,5183,ChefMate Ultra Bookshelf,ChefMate,14357.83,21078.53,50,1,2023-04-15,4.8
+1012,Furniture,Home & Kitchen,5184,DailyBasics Classic Bookshelf,DailyBasics,11821.06,18942.13,100,1,2024-03-04,3.8
+1012,Furniture,Home & Kitchen,5185,TrendKart Pro Bookshelf,TrendKart,6840.86,12358.45,50,1,2023-12-28,3.1
+1012,Furniture,Home & Kitchen,5186,Urbanic Deluxe Office Chair,Urbanic,8535.23,10755.44,100,1,2025-07-06,3.3
+1012,Furniture,Home & Kitchen,5187,BasicWear Pro Bookshelf,BasicWear,13811.18,18004.05,20,1,2023-09-22,3.2
+1012,Furniture,Home & Kitchen,5188,Urbanic Classic Bed Frame,Urbanic,3691.26,5322.53,250,1,2023-07-22,4.1
+1012,Furniture,Home & Kitchen,5189,FitPro Comfort Bed Frame,FitPro,32819.34,51669.64,0,1,2024-04-22,4.8
+1012,Furniture,Home & Kitchen,5190,FitPro Deluxe Study Table,FitPro,10367.43,17920.55,5,0,2024-03-25,3.4
+1012,Furniture,Home & Kitchen,5191,FitPro Signature Study Table,FitPro,34110.66,59999.0,5,1,2023-10-24,4.1
+1012,Furniture,Home & Kitchen,5192,PrimeStyle Pro Study Table,PrimeStyle,17038.23,22633.58,20,1,2023-09-24,4.0
+1012,Furniture,Home & Kitchen,5193,DailyBasics Classic Bookshelf,DailyBasics,11688.68,20166.36,50,1,2025-09-10,3.8
+1012,Furniture,Home & Kitchen,5194,AutoZen Ultra Bed Frame,AutoZen,13492.45,18045.63,50,1,2024-04-16,5.0
+1012,Furniture,Home & Kitchen,5195,PureGlow Smart Office Chair,PureGlow,25327.59,38222.91,20,1,2025-07-06,2.9
+1012,Furniture,Home & Kitchen,5196,AutoZen Deluxe Bed Frame,AutoZen,8087.93,10141.51,50,1,2024-08-09,3.6
+1012,Furniture,Home & Kitchen,5197,AutoZen Ultra Bookshelf,AutoZen,18493.22,32728.02,0,1,2023-02-23,4.9
+1012,Furniture,Home & Kitchen,5198,BasicWear Essential Study Table,BasicWear,17725.18,29406.87,0,1,2025-11-30,3.4
+1012,Furniture,Home & Kitchen,5199,DailyBasics Pro Study Table,DailyBasics,9358.97,15770.36,100,1,2025-06-09,4.4
+1013,Home Decor,Home & Kitchen,5200,Urbanic Pro Wall Clock,Urbanic,1773.05,2718.86,100,1,2025-10-28,3.9
+1013,Home Decor,Home & Kitchen,5201,Urbanic Deluxe Curtain Set,Urbanic,1555.96,2559.7,100,1,2025-09-13,4.8
+1013,Home Decor,Home & Kitchen,5202,HouseCraft Comfort Table Lamp,HouseCraft,2977.2,4124.42,0,1,2025-06-22,3.9
+1013,Home Decor,Home & Kitchen,5203,BasicWear Ultra Table Lamp,BasicWear,2710.3,3609.03,50,1,2023-06-27,3.3
+1013,Home Decor,Home & Kitchen,5204,HouseCraft Signature Photo Frame,HouseCraft,1619.86,2360.83,20,1,2024-06-01,4.7
+1013,Home Decor,Home & Kitchen,5205,PrimeStyle Deluxe Photo Frame,PrimeStyle,799.45,1407.84,50,1,2023-08-16,4.5
+1013,Home Decor,Home & Kitchen,5206,AutoZen Deluxe Photo Frame,AutoZen,798.17,1082.65,20,0,2024-03-03,5.0
+1013,Home Decor,Home & Kitchen,5207,HouseCraft Comfort Table Lamp,HouseCraft,1557.7,2334.77,100,1,2023-03-04,4.3
+1013,Home Decor,Home & Kitchen,5208,TrendKart Signature Table Lamp,TrendKart,2191.57,3246.21,50,1,2024-02-08,4.2
+1013,Home Decor,Home & Kitchen,5209,HouseCraft Comfort Curtain Set,HouseCraft,2501.52,3576.11,50,1,2025-11-15,3.1
+1013,Home Decor,Home & Kitchen,5210,AutoZen Everyday Curtain Set,AutoZen,2045.72,3339.45,250,1,2023-10-10,4.0
+1013,Home Decor,Home & Kitchen,5211,BasicWear Essential Wall Clock,BasicWear,1776.64,2340.8,0,1,2025-04-15,3.6
+1013,Home Decor,Home & Kitchen,5212,AutoZen Deluxe Wall Clock,AutoZen,1893.79,3381.42,20,1,2024-04-29,3.5
+1013,Home Decor,Home & Kitchen,5213,KidJoy Comfort Photo Frame,KidJoy,3656.5,5129.21,20,1,2024-03-26,4.4
+1013,Home Decor,Home & Kitchen,5214,AutoZen Pro Table Lamp,AutoZen,2296.33,3484.72,50,1,2025-10-16,4.7
+1013,Home Decor,Home & Kitchen,5215,FitPro Classic Curtain Set,FitPro,777.98,1221.33,50,1,2025-11-26,3.3
+1013,Home Decor,Home & Kitchen,5216,BasicWear Everyday Table Lamp,BasicWear,2288.32,3971.74,5,1,2024-08-14,3.7
+1013,Home Decor,Home & Kitchen,5217,PureGlow Everyday Photo Frame,PureGlow,1633.7,2258.31,20,1,2025-02-04,3.3
+1013,Home Decor,Home & Kitchen,5218,ChefMate Signature Table Lamp,ChefMate,1294.05,1882.19,50,1,2023-06-14,4.7
+1013,Home Decor,Home & Kitchen,5219,NovaHome Classic Curtain Set,NovaHome,2405.61,3923.69,100,1,2023-11-12,4.2
+1014,Cookware,Home & Kitchen,5220,KidJoy Signature Non-Stick Pan,KidJoy,1379.56,1824.25,50,1,2025-10-28,4.2
+1014,Cookware,Home & Kitchen,5221,FitPro Smart Non-Stick Pan,FitPro,2823.35,4321.6,20,1,2024-09-08,3.7
+1014,Cookware,Home & Kitchen,5222,NovaHome Smart Non-Stick Pan,NovaHome,1686.86,2390.48,100,1,2024-07-31,5.0
+1014,Cookware,Home & Kitchen,5223,ChefMate Comfort Pressure Cooker,ChefMate,1950.75,3465.52,100,1,2025-03-07,3.8
+1014,Cookware,Home & Kitchen,5224,PrimeStyle Smart Pressure Cooker,PrimeStyle,2595.78,3319.76,50,1,2023-03-02,3.2
+1014,Cookware,Home & Kitchen,5225,HouseCraft Comfort Pressure Cooker,HouseCraft,1306.0,2343.79,20,1,2024-09-14,4.5
+1014,Cookware,Home & Kitchen,5226,ChefMate Ultra Cookware Set,ChefMate,1794.1,2941.99,100,1,2024-06-19,4.5
+1014,Cookware,Home & Kitchen,5227,KidJoy Deluxe Non-Stick Pan,KidJoy,2042.77,3691.19,20,1,2025-06-27,4.4
+1014,Cookware,Home & Kitchen,5228,DailyBasics Classic Pressure Cooker,DailyBasics,2406.64,3015.6,20,1,2023-06-17,4.2
+1014,Cookware,Home & Kitchen,5229,HouseCraft Comfort Non-Stick Pan,HouseCraft,1008.72,1416.88,250,0,2025-10-20,4.7
+1014,Cookware,Home & Kitchen,5230,GlowUp Comfort Non-Stick Pan,GlowUp,1485.79,2385.03,100,1,2023-03-27,4.5
+1014,Cookware,Home & Kitchen,5231,PureGlow Deluxe Cookware Set,PureGlow,2950.44,3888.91,5,1,2023-07-17,3.8
+1014,Cookware,Home & Kitchen,5232,FitPro Essential Pressure Cooker,FitPro,1346.5,1957.64,5,1,2024-09-25,3.9
+1014,Cookware,Home & Kitchen,5233,AutoZen Essential Pressure Cooker,AutoZen,3085.99,4557.92,5,1,2024-12-20,3.6
+1014,Cookware,Home & Kitchen,5234,TrendKart Classic Non-Stick Pan,TrendKart,3727.15,5015.22,20,1,2023-09-08,4.2
+1014,Cookware,Home & Kitchen,5235,ChefMate Everyday Pressure Cooker,ChefMate,1881.99,2780.17,20,1,2023-05-08,4.6
+1014,Cookware,Home & Kitchen,5236,GlowUp Deluxe Non-Stick Pan,GlowUp,1583.36,2534.84,250,1,2025-08-06,4.7
+1014,Cookware,Home & Kitchen,5237,BasicWear Ultra Cookware Set,BasicWear,1262.96,1878.26,50,1,2023-09-20,4.9
+1014,Cookware,Home & Kitchen,5238,KidJoy Comfort Non-Stick Pan,KidJoy,1306.54,1946.9,50,1,2024-09-25,5.0
+1014,Cookware,Home & Kitchen,5239,ChefMate Smart Pressure Cooker,ChefMate,1352.31,1971.7,50,1,2024-10-21,3.9
+1016,Skincare,Beauty & Personal Care,5240,DailyBasics Everyday Serum,DailyBasics,505.06,635.14,5,1,2024-03-22,3.6
+1016,Skincare,Beauty & Personal Care,5241,PureGlow Ultra Moisturizer,PureGlow,627.43,1031.29,50,1,2024-09-13,4.2
+1016,Skincare,Beauty & Personal Care,5242,NovaHome Premium Serum,NovaHome,1263.68,1716.55,250,1,2024-07-10,4.0
+1016,Skincare,Beauty & Personal Care,5243,BasicWear Signature Serum,BasicWear,447.79,598.57,250,1,2025-09-22,4.3
+1016,Skincare,Beauty & Personal Care,5244,Urbanic Comfort Moisturizer,Urbanic,663.21,1140.4,50,1,2023-08-06,4.4
+1016,Skincare,Beauty & Personal Care,5245,FitPro Classic Sunscreen,FitPro,438.57,762.83,20,1,2025-02-01,3.8
+1016,Skincare,Beauty & Personal Care,5246,GlowUp Premium Serum,GlowUp,447.13,762.97,5,0,2023-09-12,4.8
+1016,Skincare,Beauty & Personal Care,5247,FitPro Classic Moisturizer,FitPro,1591.29,2134.87,100,1,2024-02-26,3.8
+1016,Skincare,Beauty & Personal Care,5248,AutoZen Everyday Sunscreen,AutoZen,575.76,796.16,20,1,2024-12-16,4.5
+1016,Skincare,Beauty & Personal Care,5249,BasicWear Everyday Face Wash,BasicWear,1739.88,2274.84,5,1,2023-11-16,5.0
+1016,Skincare,Beauty & Personal Care,5250,BasicWear Everyday Serum,BasicWear,563.61,772.41,100,0,2023-12-03,3.9
+1016,Skincare,Beauty & Personal Care,5251,Urbanic Smart Serum,Urbanic,852.68,1210.57,100,1,2025-03-11,4.3
+1016,Skincare,Beauty & Personal Care,5252,DailyBasics Deluxe Moisturizer,DailyBasics,707.58,960.48,50,1,2023-03-19,3.6
+1016,Skincare,Beauty & Personal Care,5253,ChefMate Classic Serum,ChefMate,731.18,1032.1,5,1,2024-05-03,5.0
+1016,Skincare,Beauty & Personal Care,5254,PrimeStyle Comfort Face Wash,PrimeStyle,586.08,810.06,100,1,2025-11-29,4.2
+1016,Skincare,Beauty & Personal Care,5255,NovaHome Premium Face Wash,NovaHome,2246.36,2999.0,100,1,2025-11-26,3.8
+1016,Skincare,Beauty & Personal Care,5256,NovaHome Everyday Sunscreen,NovaHome,970.49,1475.65,20,1,2023-03-20,5.0
+1016,Skincare,Beauty & Personal Care,5257,PureGlow Smart Moisturizer,PureGlow,974.89,1409.85,100,1,2023-08-16,4.8
+1016,Skincare,Beauty & Personal Care,5258,PrimeStyle Pro Moisturizer,PrimeStyle,901.07,1581.54,100,1,2023-10-10,4.4
+1016,Skincare,Beauty & Personal Care,5259,BasicWear Ultra Serum,BasicWear,1277.98,2094.33,20,1,2025-09-20,4.5
+1017,Haircare,Beauty & Personal Care,5260,DailyBasics Pro Conditioner,DailyBasics,529.95,796.58,20,1,2025-07-27,4.2
+1017,Haircare,Beauty & Personal Care,5261,TrendKart Comfort Hair Oil,TrendKart,746.31,1041.3,100,1,2025-07-25,3.9
+1017,Haircare,Beauty & Personal Care,5262,BasicWear Deluxe Hair Oil,BasicWear,654.26,952.83,50,1,2024-01-29,4.1
+1017,Haircare,Beauty & Personal Care,5263,NovaHome Comfort Shampoo,NovaHome,953.0,1195.87,100,1,2023-06-18,5.0
+1017,Haircare,Beauty & Personal Care,5264,GlowUp Signature Hair Oil,GlowUp,600.89,981.0,250,1,2025-06-06,5.0
+1017,Haircare,Beauty & Personal Care,5265,PureGlow Essential Hair Oil,PureGlow,895.85,1173.6,20,0,2025-01-19,4.2
+1017,Haircare,Beauty & Personal Care,5266,PureGlow Essential Shampoo,PureGlow,480.06,692.75,20,1,2024-10-13,4.2
+1017,Haircare,Beauty & Personal Care,5267,GlowUp Deluxe Conditioner,GlowUp,577.35,925.53,20,1,2025-11-17,3.7
+1017,Haircare,Beauty & Personal Care,5268,TrendKart Signature Conditioner,TrendKart,361.5,654.86,100,1,2024-11-27,4.3
+1017,Haircare,Beauty & Personal Care,5269,AutoZen Premium Conditioner,AutoZen,1394.82,1894.38,100,1,2023-01-09,4.1
+1017,Haircare,Beauty & Personal Care,5270,AutoZen Essential Hair Oil,AutoZen,315.08,419.84,20,1,2025-05-20,2.8
+1017,Haircare,Beauty & Personal Care,5271,AutoZen Essential Shampoo,AutoZen,318.4,519.71,5,1,2023-11-15,4.5
+1017,Haircare,Beauty & Personal Care,5272,BasicWear Pro Conditioner,BasicWear,262.2,456.57,250,1,2024-12-07,4.6
+1017,Haircare,Beauty & Personal Care,5273,TrendKart Premium Conditioner,TrendKart,895.6,1198.69,50,1,2025-09-26,4.0
+1017,Haircare,Beauty & Personal Care,5274,NovaHome Ultra Shampoo,NovaHome,296.08,403.88,250,1,2023-05-24,3.7
+1017,Haircare,Beauty & Personal Care,5275,NovaHome Deluxe Shampoo,NovaHome,565.62,767.6,20,1,2023-05-03,4.3
+1017,Haircare,Beauty & Personal Care,5276,PrimeStyle Essential Shampoo,PrimeStyle,345.82,463.18,100,1,2023-04-24,5.0
+1017,Haircare,Beauty & Personal Care,5277,KidJoy Smart Hair Oil,KidJoy,800.06,1027.87,100,1,2024-08-12,4.4
+1017,Haircare,Beauty & Personal Care,5278,FitPro Deluxe Shampoo,FitPro,945.64,1194.22,20,1,2023-10-18,4.9
+1017,Haircare,Beauty & Personal Care,5279,ChefMate Everyday Hair Oil,ChefMate,552.98,955.41,100,1,2024-10-06,4.5
+1018,Makeup,Beauty & Personal Care,5280,ChefMate Pro Lipstick,ChefMate,686.4,867.08,20,1,2025-02-03,5.0
+1018,Makeup,Beauty & Personal Care,5281,NovaHome Smart Compact Powder,NovaHome,742.31,1296.44,20,1,2023-08-05,3.7
+1018,Makeup,Beauty & Personal Care,5282,TrendKart Premium Compact Powder,TrendKart,665.57,972.85,0,1,2024-11-06,3.0
+1018,Makeup,Beauty & Personal Care,5283,BasicWear Everyday Compact Powder,BasicWear,715.05,969.88,50,1,2023-10-09,2.6
+1018,Makeup,Beauty & Personal Care,5284,PureGlow Ultra Kajal,PureGlow,1361.01,1801.22,100,1,2024-06-04,4.4
+1018,Makeup,Beauty & Personal Care,5285,BasicWear Classic Kajal,BasicWear,456.23,749.82,20,0,2025-08-22,4.1
+1018,Makeup,Beauty & Personal Care,5286,KidJoy Ultra Lipstick,KidJoy,767.13,1213.81,50,1,2025-06-20,3.4
+1018,Makeup,Beauty & Personal Care,5287,BasicWear Classic Foundation,BasicWear,823.1,1088.81,20,1,2023-04-09,4.1
+1018,Makeup,Beauty & Personal Care,5288,HouseCraft Signature Kajal,HouseCraft,628.6,1074.63,5,1,2024-03-27,3.7
+1018,Makeup,Beauty & Personal Care,5289,FitPro Deluxe Lipstick,FitPro,426.71,736.94,50,1,2023-10-22,3.9
+1018,Makeup,Beauty & Personal Care,5290,PrimeStyle Smart Foundation,PrimeStyle,591.45,913.91,20,1,2023-01-04,4.4
+1018,Makeup,Beauty & Personal Care,5291,PureGlow Smart Kajal,PureGlow,1705.8,2447.93,5,0,2025-04-01,4.7
+1018,Makeup,Beauty & Personal Care,5292,BasicWear Signature Foundation,BasicWear,720.05,1252.8,100,1,2024-11-09,3.7
+1018,Makeup,Beauty & Personal Care,5293,PureGlow Ultra Compact Powder,PureGlow,1493.0,1902.49,20,1,2023-10-06,4.5
+1018,Makeup,Beauty & Personal Care,5294,GlowUp Premium Kajal,GlowUp,1509.96,2349.64,50,1,2025-02-28,4.2
+1018,Makeup,Beauty & Personal Care,5295,DailyBasics Comfort Compact Powder,DailyBasics,2212.63,2896.63,5,1,2024-08-10,4.2
+1018,Makeup,Beauty & Personal Care,5296,KidJoy Everyday Lipstick,KidJoy,680.8,877.97,100,1,2024-03-31,3.8
+1018,Makeup,Beauty & Personal Care,5297,PureGlow Premium Kajal,PureGlow,977.54,1579.3,100,1,2023-01-11,3.8
+1018,Makeup,Beauty & Personal Care,5298,HouseCraft Comfort Lipstick,HouseCraft,2064.39,2884.46,20,0,2023-03-22,4.4
+1018,Makeup,Beauty & Personal Care,5299,ChefMate Premium Lipstick,ChefMate,784.96,1239.33,20,1,2025-07-29,4.2
+1019,Fragrances,Beauty & Personal Care,5300,DailyBasics Ultra Perfume,DailyBasics,1213.09,2138.92,100,1,2025-08-20,3.1
+1019,Fragrances,Beauty & Personal Care,5301,AutoZen Essential Body Mist,AutoZen,1153.96,1910.56,20,1,2024-08-04,5.0
+1019,Fragrances,Beauty & Personal Care,5302,ChefMate Everyday Perfume,ChefMate,1597.26,2721.58,50,1,2025-06-07,4.7
+1019,Fragrances,Beauty & Personal Care,5303,TrendKart Premium Body Mist,TrendKart,3189.7,4171.72,250,1,2024-09-12,4.1
+1019,Fragrances,Beauty & Personal Care,5304,KidJoy Pro Perfume,KidJoy,2065.17,3370.8,250,1,2023-06-07,3.2
+1019,Fragrances,Beauty & Personal Care,5305,BasicWear Classic Perfume,BasicWear,3901.98,5089.9,100,1,2023-05-16,4.9
+1019,Fragrances,Beauty & Personal Care,5306,NovaHome Premium Perfume,NovaHome,2327.93,3114.3,20,1,2023-11-25,4.3
+1019,Fragrances,Beauty & Personal Care,5307,NovaHome Ultra Perfume,NovaHome,1330.45,2401.78,20,1,2025-08-15,4.8
+1019,Fragrances,Beauty & Personal Care,5308,PrimeStyle Premium Deodorant,PrimeStyle,2631.46,3578.12,50,1,2025-04-27,2.4
+1019,Fragrances,Beauty & Personal Care,5309,GlowUp Classic Body Mist,GlowUp,1148.45,2029.46,250,1,2025-07-05,3.4
+1019,Fragrances,Beauty & Personal Care,5310,KidJoy Everyday Deodorant,KidJoy,889.33,1273.35,100,1,2025-08-15,4.8
+1019,Fragrances,Beauty & Personal Care,5311,DailyBasics Smart Deodorant,DailyBasics,1868.58,2376.26,20,1,2023-08-12,4.4
+1019,Fragrances,Beauty & Personal Care,5312,TrendKart Smart Perfume,TrendKart,1679.84,2527.93,20,1,2023-09-23,3.3
+1019,Fragrances,Beauty & Personal Care,5313,FitPro Premium Perfume,FitPro,851.0,1117.06,50,1,2023-04-20,3.8
+1019,Fragrances,Beauty & Personal Care,5314,FitPro Classic Deodorant,FitPro,1487.87,2043.5,5,1,2025-04-10,3.9
+1019,Fragrances,Beauty & Personal Care,5315,HouseCraft Classic Deodorant,HouseCraft,1306.01,2071.29,100,1,2025-07-30,5.0
+1019,Fragrances,Beauty & Personal Care,5316,PrimeStyle Classic Perfume,PrimeStyle,2519.55,4071.98,20,1,2024-03-08,4.2
+1019,Fragrances,Beauty & Personal Care,5317,KidJoy Ultra Body Mist,KidJoy,1708.79,2347.12,50,0,2024-10-23,4.1
+1019,Fragrances,Beauty & Personal Care,5318,KidJoy Ultra Deodorant,KidJoy,2188.6,3508.92,20,1,2023-06-14,4.1
+1019,Fragrances,Beauty & Personal Care,5319,PureGlow Ultra Body Mist,PureGlow,2210.92,3846.45,50,1,2025-09-17,4.3
+1021,Fitness Equipment,Sports & Fitness,5320,GlowUp Smart Yoga Mat,GlowUp,25691.09,33522.95,20,1,2025-07-09,4.0
+1021,Fitness Equipment,Sports & Fitness,5321,DailyBasics Comfort Resistance Band,DailyBasics,13418.72,20535.08,20,1,2025-11-05,3.5
+1021,Fitness Equipment,Sports & Fitness,5322,PureGlow Signature Resistance Band,PureGlow,6326.42,8637.89,100,1,2025-05-13,5.0
+1021,Fitness Equipment,Sports & Fitness,5323,NovaHome Signature Treadmill,NovaHome,13057.84,18230.15,250,1,2025-07-27,4.4
+1021,Fitness Equipment,Sports & Fitness,5324,BasicWear Pro Treadmill,BasicWear,27325.34,34999.0,100,1,2023-01-27,4.1
+1021,Fitness Equipment,Sports & Fitness,5325,HouseCraft Classic Yoga Mat,HouseCraft,11757.28,20507.81,20,1,2025-02-23,4.8
+1021,Fitness Equipment,Sports & Fitness,5326,ChefMate Everyday Yoga Mat,ChefMate,15555.0,26702.54,20,1,2023-12-20,3.4
+1021,Fitness Equipment,Sports & Fitness,5327,KidJoy Ultra Yoga Mat,KidJoy,7889.4,11426.94,100,1,2025-09-18,4.3
+1021,Fitness Equipment,Sports & Fitness,5328,NovaHome Signature Yoga Mat,NovaHome,20316.97,26440.55,100,1,2025-05-04,4.4
+1021,Fitness Equipment,Sports & Fitness,5329,TrendKart Premium Resistance Band,TrendKart,14973.02,21386.89,100,1,2025-07-09,3.4
+1021,Fitness Equipment,Sports & Fitness,5330,AutoZen Classic Treadmill,AutoZen,6882.35,10168.16,100,1,2025-05-13,4.9
+1021,Fitness Equipment,Sports & Fitness,5331,DailyBasics Comfort Dumbbell Set,DailyBasics,8243.79,10821.2,20,1,2023-10-12,4.1
+1021,Fitness Equipment,Sports & Fitness,5332,NovaHome Smart Treadmill,NovaHome,15155.47,26187.85,50,1,2025-04-18,3.6
+1021,Fitness Equipment,Sports & Fitness,5333,DailyBasics Ultra Treadmill,DailyBasics,6444.87,8572.52,20,1,2023-04-26,3.3
+1021,Fitness Equipment,Sports & Fitness,5334,BasicWear Ultra Yoga Mat,BasicWear,20310.56,26817.39,50,1,2025-07-17,4.7
+1021,Fitness Equipment,Sports & Fitness,5335,PrimeStyle Premium Treadmill,PrimeStyle,11919.46,19277.25,50,1,2025-07-03,3.9
+1021,Fitness Equipment,Sports & Fitness,5336,NovaHome Everyday Treadmill,NovaHome,3248.49,5890.0,50,1,2023-08-25,3.1
+1021,Fitness Equipment,Sports & Fitness,5337,BasicWear Ultra Dumbbell Set,BasicWear,15328.26,23574.83,100,1,2025-05-19,4.4
+1021,Fitness Equipment,Sports & Fitness,5338,HouseCraft Premium Dumbbell Set,HouseCraft,12701.23,17244.74,20,1,2024-05-05,4.3
+1021,Fitness Equipment,Sports & Fitness,5339,PureGlow Signature Dumbbell Set,PureGlow,5369.32,8093.5,50,1,2023-11-22,3.9
+1022,Sportswear,Sports & Fitness,5340,TrendKart Everyday Track Suit,TrendKart,638.32,873.93,100,1,2025-04-27,3.4
+1022,Sportswear,Sports & Fitness,5341,HouseCraft Ultra Gym Shorts,HouseCraft,1747.9,2267.54,100,1,2023-08-31,3.2
+1022,Sportswear,Sports & Fitness,5342,ChefMate Pro Track Suit,ChefMate,617.53,876.6,20,1,2023-01-26,4.0
+1022,Sportswear,Sports & Fitness,5343,TrendKart Classic Gym Shorts,TrendKart,997.89,1510.17,100,1,2023-07-25,3.3
+1022,Sportswear,Sports & Fitness,5344,AutoZen Comfort Sports T-Shirt,AutoZen,426.69,646.0,250,1,2023-12-16,4.4
+1022,Sportswear,Sports & Fitness,5345,ChefMate Essential Sports T-Shirt,ChefMate,1086.56,1602.39,5,1,2025-07-09,4.9
+1022,Sportswear,Sports & Fitness,5346,HouseCraft Signature Sports T-Shirt,HouseCraft,945.5,1523.01,100,1,2025-10-26,4.4
+1022,Sportswear,Sports & Fitness,5347,FitPro Ultra Gym Shorts,FitPro,687.58,1008.58,50,1,2023-10-25,3.7
+1022,Sportswear,Sports & Fitness,5348,DailyBasics Premium Sports T-Shirt,DailyBasics,499.08,769.21,100,1,2024-11-14,3.7
+1022,Sportswear,Sports & Fitness,5349,Urbanic Premium Gym Shorts,Urbanic,743.1,1236.23,100,1,2024-03-01,4.8
+1022,Sportswear,Sports & Fitness,5350,ChefMate Pro Track Suit,ChefMate,579.21,943.52,50,1,2025-11-10,5.0
+1022,Sportswear,Sports & Fitness,5351,Urbanic Classic Sports T-Shirt,Urbanic,1326.33,1966.84,20,1,2024-07-25,4.3
+1022,Sportswear,Sports & Fitness,5352,PrimeStyle Pro Sports T-Shirt,PrimeStyle,944.61,1464.4,50,1,2025-09-27,4.0
+1022,Sportswear,Sports & Fitness,5353,KidJoy Essential Gym Shorts,KidJoy,747.71,1084.14,50,1,2023-05-03,3.3
+1022,Sportswear,Sports & Fitness,5354,HouseCraft Everyday Gym Shorts,HouseCraft,622.38,958.58,50,1,2025-10-30,5.0
+1022,Sportswear,Sports & Fitness,5355,PureGlow Premium Gym Shorts,PureGlow,1056.2,1904.14,20,1,2023-07-10,5.0
+1022,Sportswear,Sports & Fitness,5356,AutoZen Everyday Track Suit,AutoZen,704.06,1071.11,20,1,2025-10-22,3.5
+1022,Sportswear,Sports & Fitness,5357,TrendKart Signature Sports T-Shirt,TrendKart,843.47,1457.29,5,1,2023-10-10,3.6
+1022,Sportswear,Sports & Fitness,5358,PrimeStyle Everyday Track Suit,PrimeStyle,1208.27,1610.32,100,1,2023-04-26,3.2
+1022,Sportswear,Sports & Fitness,5359,GlowUp Comfort Gym Shorts,GlowUp,412.36,528.7,20,1,2024-04-07,4.3
+1023,Outdoor Gear,Sports & Fitness,5360,HouseCraft Signature Camping Tent,HouseCraft,7282.3,11921.99,50,1,2025-02-14,4.4
+1023,Outdoor Gear,Sports & Fitness,5361,KidJoy Signature Water Bottle,KidJoy,3890.54,6829.57,20,1,2023-12-01,4.1
+1023,Outdoor Gear,Sports & Fitness,5362,DailyBasics Everyday Hiking Backpack,DailyBasics,3560.56,5622.52,5,1,2024-10-07,3.3
+1023,Outdoor Gear,Sports & Fitness,5363,KidJoy Classic Camping Tent,KidJoy,2533.13,3576.32,100,1,2024-06-28,4.8
+1023,Outdoor Gear,Sports & Fitness,5364,DailyBasics Smart Water Bottle,DailyBasics,2323.23,2992.0,250,1,2024-02-15,3.9
+1023,Outdoor Gear,Sports & Fitness,5365,GlowUp Everyday Hiking Backpack,GlowUp,7480.97,9474.91,50,1,2024-09-06,4.2
+1023,Outdoor Gear,Sports & Fitness,5366,DailyBasics Pro Water Bottle,DailyBasics,3273.82,5686.66,20,1,2023-09-29,3.9
+1023,Outdoor Gear,Sports & Fitness,5367,PrimeStyle Essential Hiking Backpack,PrimeStyle,5156.9,7360.69,5,1,2025-01-24,4.7
+1023,Outdoor Gear,Sports & Fitness,5368,PrimeStyle Classic Water Bottle,PrimeStyle,2747.31,3487.22,5,0,2023-01-02,3.3
+1023,Outdoor Gear,Sports & Fitness,5369,FitPro Comfort Water Bottle,FitPro,1523.5,2062.66,50,1,2025-09-12,4.4
+1023,Outdoor Gear,Sports & Fitness,5370,BasicWear Comfort Water Bottle,BasicWear,4900.11,6273.84,250,1,2024-07-27,5.0
+1023,Outdoor Gear,Sports & Fitness,5371,NovaHome Ultra Water Bottle,NovaHome,4122.75,5381.75,50,1,2025-02-05,4.0
+1023,Outdoor Gear,Sports & Fitness,5372,PrimeStyle Everyday Water Bottle,PrimeStyle,3896.93,5904.97,100,1,2025-03-01,4.3
+1023,Outdoor Gear,Sports & Fitness,5373,BasicWear Comfort Hiking Backpack,BasicWear,2961.64,4733.28,20,1,2024-12-15,3.6
+1023,Outdoor Gear,Sports & Fitness,5374,Urbanic Ultra Hiking Backpack,Urbanic,3342.6,5239.31,50,1,2024-01-23,4.1
+1023,Outdoor Gear,Sports & Fitness,5375,FitPro Deluxe Camping Tent,FitPro,3382.36,5101.76,50,1,2023-03-16,4.6
+1023,Outdoor Gear,Sports & Fitness,5376,TrendKart Everyday Camping Tent,TrendKart,2955.66,5192.81,50,1,2024-12-08,3.3
+1023,Outdoor Gear,Sports & Fitness,5377,AutoZen Ultra Camping Tent,AutoZen,2577.74,3808.91,0,1,2023-12-18,4.0
+1023,Outdoor Gear,Sports & Fitness,5378,KidJoy Ultra Hiking Backpack,KidJoy,4190.73,5314.42,250,1,2023-12-01,4.4
+1023,Outdoor Gear,Sports & Fitness,5379,FitPro Premium Water Bottle,FitPro,4146.89,5335.25,50,1,2025-06-22,2.9
+1025,Fiction,Books & Stationery,5380,NovaHome Essential Mystery Book,NovaHome,133.79,190.79,50,1,2025-02-05,4.5
+1025,Fiction,Books & Stationery,5381,Urbanic Pro Mystery Book,Urbanic,208.05,313.97,5,0,2023-11-16,5.0
+1025,Fiction,Books & Stationery,5382,KidJoy Classic Short Story Collection,KidJoy,267.74,376.29,250,1,2023-11-26,3.9
+1025,Fiction,Books & Stationery,5383,GlowUp Essential Novel,GlowUp,169.52,257.06,100,1,2024-03-10,3.9
+1025,Fiction,Books & Stationery,5384,KidJoy Smart Short Story Collection,KidJoy,265.91,378.54,100,1,2024-03-04,4.1
+1025,Fiction,Books & Stationery,5385,TrendKart Everyday Short Story Collection,TrendKart,363.28,561.61,50,1,2023-11-11,3.2
+1025,Fiction,Books & Stationery,5386,Urbanic Ultra Short Story Collection,Urbanic,131.8,176.37,50,1,2023-05-16,4.0
+1025,Fiction,Books & Stationery,5387,HouseCraft Everyday Mystery Book,HouseCraft,289.62,457.95,100,1,2024-03-23,4.6
+1025,Fiction,Books & Stationery,5388,TrendKart Signature Mystery Book,TrendKart,160.51,261.85,0,1,2025-09-28,2.5
+1025,Fiction,Books & Stationery,5389,PrimeStyle Ultra Mystery Book,PrimeStyle,168.37,265.84,50,1,2024-12-22,4.3
+1025,Fiction,Books & Stationery,5390,NovaHome Pro Mystery Book,NovaHome,217.56,346.67,20,1,2025-08-19,4.4
+1025,Fiction,Books & Stationery,5391,PrimeStyle Signature Mystery Book,PrimeStyle,444.02,635.44,5,1,2024-10-17,4.0
+1025,Fiction,Books & Stationery,5392,KidJoy Deluxe Novel,KidJoy,180.3,279.89,100,1,2023-11-17,3.6
+1025,Fiction,Books & Stationery,5393,BasicWear Pro Short Story Collection,BasicWear,127.67,175.93,50,1,2024-08-06,3.1
+1025,Fiction,Books & Stationery,5394,HouseCraft Smart Mystery Book,HouseCraft,177.88,250.01,100,1,2023-01-01,4.7
+1025,Fiction,Books & Stationery,5395,NovaHome Smart Short Story Collection,NovaHome,271.89,490.29,5,1,2023-11-02,3.8
+1025,Fiction,Books & Stationery,5396,DailyBasics Pro Short Story Collection,DailyBasics,571.25,899.0,100,1,2024-04-02,3.7
+1025,Fiction,Books & Stationery,5397,DailyBasics Essential Short Story Collection,DailyBasics,535.8,669.75,5,1,2024-09-09,5.0
+1025,Fiction,Books & Stationery,5398,TrendKart Classic Novel,TrendKart,334.63,439.66,50,1,2024-11-28,3.7
+1025,Fiction,Books & Stationery,5399,ChefMate Smart Novel,ChefMate,199.33,291.01,5,1,2024-05-10,4.2
+1026,Non-Fiction,Books & Stationery,5400,Urbanic Smart History Book,Urbanic,206.49,288.6,20,1,2024-04-15,3.5
+1026,Non-Fiction,Books & Stationery,5401,AutoZen Pro History Book,AutoZen,216.02,335.34,20,1,2023-08-16,4.4
+1026,Non-Fiction,Books & Stationery,5402,GlowUp Pro Biography,GlowUp,760.58,1023.97,20,1,2024-05-18,4.5
+1026,Non-Fiction,Books & Stationery,5403,Urbanic Comfort Biography,Urbanic,607.89,931.33,50,1,2025-08-17,3.6
+1026,Non-Fiction,Books & Stationery,5404,FitPro Essential History Book,FitPro,338.44,481.67,50,1,2025-04-27,3.9
+1026,Non-Fiction,Books & Stationery,5405,DailyBasics Comfort History Book,DailyBasics,485.9,710.9,5,0,2023-06-30,5.0
+1026,Non-Fiction,Books & Stationery,5406,DailyBasics Comfort Self-Help Book,DailyBasics,263.38,410.28,250,1,2023-04-01,4.7
+1026,Non-Fiction,Books & Stationery,5407,FitPro Comfort History Book,FitPro,902.26,1215.4,100,1,2024-07-02,4.4
+1026,Non-Fiction,Books & Stationery,5408,KidJoy Smart Self-Help Book,KidJoy,308.73,471.59,250,1,2024-11-05,3.6
+1026,Non-Fiction,Books & Stationery,5409,ChefMate Essential Biography,ChefMate,235.37,335.69,50,1,2023-12-23,2.9
+1026,Non-Fiction,Books & Stationery,5410,BasicWear Premium Self-Help Book,BasicWear,339.58,506.72,100,1,2025-05-21,3.9
+1026,Non-Fiction,Books & Stationery,5411,HouseCraft Smart Self-Help Book,HouseCraft,633.44,870.29,100,1,2025-03-10,3.8
+1026,Non-Fiction,Books & Stationery,5412,TrendKart Classic History Book,TrendKart,297.26,520.63,100,1,2024-12-17,4.3
+1026,Non-Fiction,Books & Stationery,5413,FitPro Deluxe Biography,FitPro,561.66,723.49,100,1,2023-08-28,4.5
+1026,Non-Fiction,Books & Stationery,5414,HouseCraft Signature Biography,HouseCraft,487.4,619.62,250,0,2023-08-01,3.3
+1026,Non-Fiction,Books & Stationery,5415,NovaHome Comfort Biography,NovaHome,540.95,691.21,100,1,2023-01-27,3.7
+1026,Non-Fiction,Books & Stationery,5416,PureGlow Premium Self-Help Book,PureGlow,710.12,1051.25,100,1,2023-09-18,4.1
+1026,Non-Fiction,Books & Stationery,5417,HouseCraft Signature Biography,HouseCraft,410.96,638.4,20,1,2024-05-21,5.0
+1026,Non-Fiction,Books & Stationery,5418,HouseCraft Everyday Biography,HouseCraft,626.75,824.9,50,1,2025-06-23,4.3
+1026,Non-Fiction,Books & Stationery,5419,ChefMate Everyday History Book,ChefMate,309.76,528.14,0,1,2023-03-19,3.4
+1027,Office Supplies,Books & Stationery,5420,FitPro Deluxe Notebook Set,FitPro,662.61,915.18,100,1,2024-03-17,3.6
+1027,Office Supplies,Books & Stationery,5421,FitPro Comfort Notebook Set,FitPro,1648.09,2341.58,50,1,2024-11-01,4.3
+1027,Office Supplies,Books & Stationery,5422,TrendKart Premium Notebook Set,TrendKart,1116.13,1848.16,50,1,2023-07-27,3.7
+1027,Office Supplies,Books & Stationery,5423,GlowUp Smart Notebook Set,GlowUp,481.87,686.21,250,1,2025-01-11,4.5
+1027,Office Supplies,Books & Stationery,5424,ChefMate Classic Pen Pack,ChefMate,405.49,651.89,20,1,2024-06-10,3.8
+1027,Office Supplies,Books & Stationery,5425,Urbanic Classic Pen Pack,Urbanic,1468.76,2409.35,100,1,2023-09-17,3.9
+1027,Office Supplies,Books & Stationery,5426,FitPro Ultra Desk Organizer,FitPro,282.81,499.92,100,1,2024-11-29,3.0
+1027,Office Supplies,Books & Stationery,5427,KidJoy Ultra Pen Pack,KidJoy,262.54,473.81,100,1,2023-01-06,4.9
+1027,Office Supplies,Books & Stationery,5428,DailyBasics Ultra Desk Organizer,DailyBasics,562.56,771.01,50,1,2025-03-10,5.0
+1027,Office Supplies,Books & Stationery,5429,Urbanic Signature Pen Pack,Urbanic,1545.78,2196.64,50,1,2025-03-31,5.0
+1027,Office Supplies,Books & Stationery,5430,PureGlow Ultra Notebook Set,PureGlow,1011.85,1695.38,20,1,2023-04-24,4.5
+1027,Office Supplies,Books & Stationery,5431,KidJoy Classic Desk Organizer,KidJoy,535.63,674.88,5,1,2024-03-28,4.1
+1027,Office Supplies,Books & Stationery,5432,KidJoy Smart Notebook Set,KidJoy,974.08,1439.17,100,1,2023-07-07,4.7
+1027,Office Supplies,Books & Stationery,5433,Urbanic Smart Desk Organizer,Urbanic,371.79,574.09,20,1,2025-10-17,4.0
+1027,Office Supplies,Books & Stationery,5434,BasicWear Premium Pen Pack,BasicWear,630.46,974.85,50,1,2024-07-05,4.0
+1027,Office Supplies,Books & Stationery,5435,GlowUp Deluxe Pen Pack,GlowUp,337.33,608.83,50,1,2023-02-23,5.0
+1027,Office Supplies,Books & Stationery,5436,DailyBasics Everyday Notebook Set,DailyBasics,665.21,907.22,100,1,2023-09-23,3.5
+1027,Office Supplies,Books & Stationery,5437,ChefMate Classic Desk Organizer,ChefMate,1813.04,2606.91,20,1,2025-06-22,5.0
+1027,Office Supplies,Books & Stationery,5438,Urbanic Pro Pen Pack,Urbanic,695.6,1090.15,20,0,2024-05-01,3.0
+1027,Office Supplies,Books & Stationery,5439,ChefMate Pro Pen Pack,ChefMate,580.41,804.81,100,1,2025-05-03,3.1
+1029,Staples,Grocery,5440,ChefMate Pro Pulses Pack,ChefMate,263.61,451.61,50,1,2024-12-11,3.8
+1029,Staples,Grocery,5441,TrendKart Premium Pulses Pack,TrendKart,206.87,344.56,50,1,2025-11-18,5.0
+1029,Staples,Grocery,5442,NovaHome Premium Atta Pack,NovaHome,202.5,258.51,50,1,2024-09-26,4.4
+1029,Staples,Grocery,5443,FitPro Smart Pulses Pack,FitPro,314.26,512.38,250,1,2025-10-08,4.8
+1029,Staples,Grocery,5444,NovaHome Deluxe Atta Pack,NovaHome,254.36,332.27,20,1,2025-08-07,4.0
+1029,Staples,Grocery,5445,TrendKart Everyday Rice Pack,TrendKart,181.27,311.93,20,1,2024-10-14,4.3
+1029,Staples,Grocery,5446,PureGlow Signature Cooking Oil,PureGlow,542.19,736.84,5,1,2025-02-05,3.9
+1029,Staples,Grocery,5447,PrimeStyle Everyday Pulses Pack,PrimeStyle,70.07,103.95,20,1,2024-06-21,4.6
+1029,Staples,Grocery,5448,ChefMate Everyday Pulses Pack,ChefMate,245.57,361.23,250,1,2025-06-03,4.4
+1029,Staples,Grocery,5449,HouseCraft Signature Rice Pack,HouseCraft,105.18,159.93,100,0,2024-08-06,3.8
+1029,Staples,Grocery,5450,TrendKart Smart Atta Pack,TrendKart,327.54,519.65,20,1,2025-08-13,3.3
+1029,Staples,Grocery,5451,BasicWear Everyday Rice Pack,BasicWear,275.2,441.09,50,1,2025-03-02,4.1
+1029,Staples,Grocery,5452,GlowUp Ultra Pulses Pack,GlowUp,158.85,241.95,100,1,2024-05-20,3.6
+1029,Staples,Grocery,5453,FitPro Everyday Pulses Pack,FitPro,117.84,210.21,100,1,2023-10-04,4.1
+1029,Staples,Grocery,5454,PureGlow Ultra Cooking Oil,PureGlow,236.04,381.55,50,1,2023-09-21,3.9
+1029,Staples,Grocery,5455,BasicWear Classic Rice Pack,BasicWear,144.98,204.38,20,0,2024-11-10,2.3
+1029,Staples,Grocery,5456,ChefMate Smart Cooking Oil,ChefMate,320.47,434.55,50,1,2025-03-26,4.6
+1029,Staples,Grocery,5457,PrimeStyle Premium Atta Pack,PrimeStyle,362.86,476.09,5,1,2024-07-09,5.0
+1029,Staples,Grocery,5458,PrimeStyle Premium Pulses Pack,PrimeStyle,180.7,318.8,5,1,2024-10-29,4.9
+1029,Staples,Grocery,5459,PureGlow Everyday Cooking Oil,PureGlow,199.13,252.91,20,1,2023-10-20,3.6
+1030,Snacks & Beverages,Grocery,5460,PrimeStyle Ultra Chips Pack,PrimeStyle,211.22,293.46,20,1,2023-03-24,5.0
+1030,Snacks & Beverages,Grocery,5461,FitPro Everyday Cold Drink Pack,FitPro,176.7,238.53,250,1,2023-11-01,3.2
+1030,Snacks & Beverages,Grocery,5462,KidJoy Pro Namkeen Pack,KidJoy,275.44,429.21,50,1,2023-10-17,4.1
+1030,Snacks & Beverages,Grocery,5463,DailyBasics Deluxe Cold Drink Pack,DailyBasics,253.21,320.47,100,1,2023-12-07,3.6
+1030,Snacks & Beverages,Grocery,5464,FitPro Pro Chips Pack,FitPro,198.45,292.08,20,1,2024-07-29,3.2
+1030,Snacks & Beverages,Grocery,5465,TrendKart Classic Namkeen Pack,TrendKart,523.74,704.19,100,1,2023-05-28,4.7
+1030,Snacks & Beverages,Grocery,5466,DailyBasics Comfort Namkeen Pack,DailyBasics,228.16,285.52,20,1,2023-09-04,4.6
+1030,Snacks & Beverages,Grocery,5467,DailyBasics Comfort Cold Drink Pack,DailyBasics,116.17,200.06,100,1,2025-01-09,4.7
+1030,Snacks & Beverages,Grocery,5468,PrimeStyle Comfort Chips Pack,PrimeStyle,180.85,233.46,20,1,2025-01-22,3.9
+1030,Snacks & Beverages,Grocery,5469,ChefMate Classic Cold Drink Pack,ChefMate,123.35,171.2,50,1,2023-03-10,4.4
+1030,Snacks & Beverages,Grocery,5470,GlowUp Everyday Cold Drink Pack,GlowUp,158.18,279.36,250,1,2024-03-10,4.9
+1030,Snacks & Beverages,Grocery,5471,TrendKart Deluxe Namkeen Pack,TrendKart,123.78,162.26,100,1,2024-07-31,4.4
+1030,Snacks & Beverages,Grocery,5472,ChefMate Pro Namkeen Pack,ChefMate,320.02,499.74,100,1,2024-03-18,5.0
+1030,Snacks & Beverages,Grocery,5473,DailyBasics Classic Chips Pack,DailyBasics,227.52,304.17,20,1,2023-08-09,3.9
+1030,Snacks & Beverages,Grocery,5474,Urbanic Comfort Chips Pack,Urbanic,192.23,300.25,100,1,2024-03-23,4.9
+1030,Snacks & Beverages,Grocery,5475,FitPro Everyday Namkeen Pack,FitPro,400.41,533.23,50,1,2025-08-21,4.0
+1030,Snacks & Beverages,Grocery,5476,AutoZen Pro Namkeen Pack,AutoZen,407.04,527.9,20,1,2024-09-14,4.1
+1030,Snacks & Beverages,Grocery,5477,PureGlow Deluxe Chips Pack,PureGlow,336.11,420.19,20,1,2025-01-10,4.4
+1030,Snacks & Beverages,Grocery,5478,KidJoy Comfort Namkeen Pack,KidJoy,148.1,226.9,50,1,2025-07-01,3.5
+1030,Snacks & Beverages,Grocery,5479,HouseCraft Ultra Cold Drink Pack,HouseCraft,294.87,507.24,50,1,2025-03-26,5.0
+1031,Packaged Food,Grocery,5480,FitPro Classic Ready-to-Eat Meal,FitPro,420.82,631.42,50,1,2024-02-10,4.1
+1031,Packaged Food,Grocery,5481,PrimeStyle Everyday Breakfast Cereal,PrimeStyle,220.2,286.17,100,1,2023-01-07,4.8
+1031,Packaged Food,Grocery,5482,PrimeStyle Ultra Breakfast Cereal,PrimeStyle,441.1,594.52,20,1,2024-01-10,3.9
+1031,Packaged Food,Grocery,5483,KidJoy Signature Instant Noodles,KidJoy,620.37,797.72,100,1,2025-03-13,3.3
+1031,Packaged Food,Grocery,5484,KidJoy Classic Instant Noodles,KidJoy,184.08,312.92,5,1,2025-06-27,3.7
+1031,Packaged Food,Grocery,5485,NovaHome Pro Instant Noodles,NovaHome,522.86,667.18,100,1,2025-10-12,4.2
+1031,Packaged Food,Grocery,5486,KidJoy Everyday Instant Noodles,KidJoy,548.36,708.72,20,1,2024-03-22,4.8
+1031,Packaged Food,Grocery,5487,DailyBasics Deluxe Instant Noodles,DailyBasics,511.92,722.27,20,1,2025-03-07,5.0
+1031,Packaged Food,Grocery,5488,PrimeStyle Deluxe Breakfast Cereal,PrimeStyle,633.89,897.53,50,1,2024-08-04,4.0
+1031,Packaged Food,Grocery,5489,HouseCraft Smart Breakfast Cereal,HouseCraft,266.76,394.83,100,1,2024-10-04,4.0
+1031,Packaged Food,Grocery,5490,AutoZen Ultra Instant Noodles,AutoZen,433.0,735.71,20,1,2023-08-23,3.8
+1031,Packaged Food,Grocery,5491,GlowUp Ultra Breakfast Cereal,GlowUp,578.98,746.59,0,0,2023-08-22,4.5
+1031,Packaged Food,Grocery,5492,Urbanic Ultra Ready-to-Eat Meal,Urbanic,244.47,323.24,100,1,2024-04-09,4.8
+1031,Packaged Food,Grocery,5493,Urbanic Classic Instant Noodles,Urbanic,488.04,620.02,5,1,2023-01-31,5.0
+1031,Packaged Food,Grocery,5494,BasicWear Deluxe Breakfast Cereal,BasicWear,307.99,511.01,20,1,2023-12-24,3.9
+1031,Packaged Food,Grocery,5495,AutoZen Signature Breakfast Cereal,AutoZen,216.25,304.68,100,1,2024-12-24,3.5
+1031,Packaged Food,Grocery,5496,TrendKart Smart Ready-to-Eat Meal,TrendKart,589.6,829.86,100,1,2024-03-06,5.0
+1031,Packaged Food,Grocery,5497,DailyBasics Comfort Ready-to-Eat Meal,DailyBasics,367.88,489.74,100,1,2023-06-25,4.0
+1031,Packaged Food,Grocery,5498,TrendKart Signature Breakfast Cereal,TrendKart,354.51,534.39,5,1,2024-05-12,4.8
+1031,Packaged Food,Grocery,5499,PrimeStyle Premium Breakfast Cereal,PrimeStyle,214.17,324.55,5,1,2023-05-16,4.2
+1033,Toys & Games,Toys & Baby,5500,DailyBasics Comfort Puzzle Set,DailyBasics,1791.78,2821.48,100,1,2024-10-24,4.4
+1033,Toys & Games,Toys & Baby,5501,GlowUp Everyday Remote Car,GlowUp,282.45,448.45,20,1,2023-01-29,4.5
+1033,Toys & Games,Toys & Baby,5502,PrimeStyle Signature Board Game,PrimeStyle,1655.96,2237.28,100,1,2024-02-24,4.9
+1033,Toys & Games,Toys & Baby,5503,DailyBasics Everyday Building Blocks,DailyBasics,2586.39,3879.87,50,1,2024-08-24,4.9
+1033,Toys & Games,Toys & Baby,5504,DailyBasics Comfort Board Game,DailyBasics,1052.97,1799.27,20,1,2023-01-29,3.1
+1033,Toys & Games,Toys & Baby,5505,PureGlow Deluxe Building Blocks,PureGlow,3829.44,4999.0,250,1,2024-11-15,4.0
+1033,Toys & Games,Toys & Baby,5506,PrimeStyle Essential Puzzle Set,PrimeStyle,1334.11,1770.86,50,1,2023-05-25,5.0
+1033,Toys & Games,Toys & Baby,5507,ChefMate Essential Board Game,ChefMate,705.05,1195.33,50,1,2024-05-06,3.3
+1033,Toys & Games,Toys & Baby,5508,TrendKart Comfort Puzzle Set,TrendKart,942.7,1397.96,250,1,2023-02-23,3.7
+1033,Toys & Games,Toys & Baby,5509,KidJoy Signature Building Blocks,KidJoy,569.78,857.7,50,1,2024-02-08,4.1
+1033,Toys & Games,Toys & Baby,5510,AutoZen Essential Remote Car,AutoZen,1152.36,1805.58,0,1,2023-08-14,3.2
+1033,Toys & Games,Toys & Baby,5511,FitPro Deluxe Building Blocks,FitPro,1038.21,1484.47,100,1,2023-12-15,3.6
+1033,Toys & Games,Toys & Baby,5512,KidJoy Deluxe Puzzle Set,KidJoy,374.54,678.46,250,1,2025-03-21,4.2
+1033,Toys & Games,Toys & Baby,5513,PrimeStyle Signature Building Blocks,PrimeStyle,1485.41,1927.57,20,1,2024-02-08,3.6
+1033,Toys & Games,Toys & Baby,5514,NovaHome Signature Board Game,NovaHome,1665.6,2967.34,50,1,2025-03-11,4.1
+1033,Toys & Games,Toys & Baby,5515,KidJoy Ultra Building Blocks,KidJoy,727.9,1215.87,50,1,2025-06-04,3.2
+1033,Toys & Games,Toys & Baby,5516,PureGlow Classic Board Game,PureGlow,1338.78,1980.25,50,1,2023-09-26,4.4
+1033,Toys & Games,Toys & Baby,5517,BasicWear Ultra Board Game,BasicWear,956.37,1360.88,20,1,2023-03-29,4.2
+1033,Toys & Games,Toys & Baby,5518,PureGlow Classic Remote Car,PureGlow,2495.84,3879.75,20,1,2023-01-21,4.6
+1033,Toys & Games,Toys & Baby,5519,NovaHome Smart Board Game,NovaHome,436.46,590.82,20,1,2024-07-28,3.7
+1034,Baby Care,Toys & Baby,5520,KidJoy Ultra Diaper Pack,KidJoy,831.94,1279.23,5,1,2025-11-30,4.1
+1034,Baby Care,Toys & Baby,5521,Urbanic Premium Diaper Pack,Urbanic,868.32,1486.19,100,1,2024-01-08,4.4
+1034,Baby Care,Toys & Baby,5522,KidJoy Comfort Baby Wipes,KidJoy,863.72,1300.3,50,1,2024-11-23,4.1
+1034,Baby Care,Toys & Baby,5523,PrimeStyle Smart Feeding Bottle,PrimeStyle,1390.37,2199.99,100,1,2025-04-12,4.3
+1034,Baby Care,Toys & Baby,5524,PrimeStyle Everyday Feeding Bottle,PrimeStyle,499.84,771.07,0,1,2024-11-25,4.2
+1034,Baby Care,Toys & Baby,5525,AutoZen Deluxe Feeding Bottle,AutoZen,812.25,1280.97,50,1,2025-03-14,3.0
+1034,Baby Care,Toys & Baby,5526,FitPro Smart Feeding Bottle,FitPro,1075.99,1479.66,20,1,2025-10-08,3.5
+1034,Baby Care,Toys & Baby,5527,Urbanic Comfort Baby Wipes,Urbanic,1424.17,2218.02,100,1,2023-08-01,4.4
+1034,Baby Care,Toys & Baby,5528,PureGlow Classic Feeding Bottle,PureGlow,523.38,752.07,20,1,2023-01-22,4.7
+1034,Baby Care,Toys & Baby,5529,AutoZen Premium Feeding Bottle,AutoZen,1832.39,2740.44,100,1,2023-06-12,3.9
+1034,Baby Care,Toys & Baby,5530,AutoZen Ultra Feeding Bottle,AutoZen,775.16,1277.28,20,1,2023-05-15,4.6
+1034,Baby Care,Toys & Baby,5531,FitPro Ultra Diaper Pack,FitPro,1554.05,2622.31,100,1,2024-12-13,3.1
+1034,Baby Care,Toys & Baby,5532,ChefMate Ultra Feeding Bottle,ChefMate,601.91,791.68,50,1,2024-08-23,3.9
+1034,Baby Care,Toys & Baby,5533,Urbanic Essential Diaper Pack,Urbanic,811.68,1171.01,20,1,2023-08-21,4.6
+1034,Baby Care,Toys & Baby,5534,DailyBasics Classic Feeding Bottle,DailyBasics,1459.03,2630.15,20,1,2025-01-14,4.9
+1034,Baby Care,Toys & Baby,5535,PrimeStyle Signature Baby Wipes,PrimeStyle,384.56,588.7,100,1,2025-03-27,3.6
+1034,Baby Care,Toys & Baby,5536,KidJoy Signature Diaper Pack,KidJoy,548.07,736.91,250,1,2023-06-28,3.7
+1034,Baby Care,Toys & Baby,5537,GlowUp Premium Baby Wipes,GlowUp,532.66,911.27,50,1,2024-10-08,4.4
+1034,Baby Care,Toys & Baby,5538,NovaHome Smart Diaper Pack,NovaHome,1435.19,1795.04,50,1,2025-03-07,4.1
+1034,Baby Care,Toys & Baby,5539,PureGlow Smart Baby Wipes,PureGlow,821.34,1306.96,20,1,2023-05-02,3.9
+1035,Kids Clothing,Toys & Baby,5540,KidJoy Comfort Kids T-Shirt,KidJoy,409.15,643.74,20,1,2025-05-22,5.0
+1035,Kids Clothing,Toys & Baby,5541,AutoZen Deluxe Kids Frock,AutoZen,696.63,1038.12,50,1,2025-10-24,3.9
+1035,Kids Clothing,Toys & Baby,5542,KidJoy Deluxe Kids T-Shirt,KidJoy,433.73,694.39,50,1,2023-04-26,4.4
+1035,Kids Clothing,Toys & Baby,5543,GlowUp Deluxe Kids Frock,GlowUp,242.73,403.32,50,1,2023-01-28,4.2
+1035,Kids Clothing,Toys & Baby,5544,NovaHome Comfort Kids Shorts,NovaHome,675.3,1007.99,50,1,2023-11-29,4.4
+1035,Kids Clothing,Toys & Baby,5545,TrendKart Deluxe Kids Shorts,TrendKart,286.83,494.13,5,1,2024-12-22,3.7
+1035,Kids Clothing,Toys & Baby,5546,PureGlow Smart Kids Shorts,PureGlow,210.77,272.34,50,1,2025-10-17,4.5
+1035,Kids Clothing,Toys & Baby,5547,ChefMate Everyday Kids Frock,ChefMate,1501.56,1999.0,50,1,2024-02-27,3.5
+1035,Kids Clothing,Toys & Baby,5548,TrendKart Premium Kids Frock,TrendKart,1002.21,1270.51,50,1,2025-01-31,5.0
+1035,Kids Clothing,Toys & Baby,5549,FitPro Everyday Kids T-Shirt,FitPro,414.53,580.58,50,1,2023-03-22,4.0
+1035,Kids Clothing,Toys & Baby,5550,DailyBasics Comfort Kids Shorts,DailyBasics,499.49,831.77,50,1,2025-01-05,4.4
+1035,Kids Clothing,Toys & Baby,5551,KidJoy Deluxe Kids Shorts,KidJoy,618.82,854.67,20,1,2024-10-30,3.9
+1035,Kids Clothing,Toys & Baby,5552,AutoZen Classic Kids T-Shirt,AutoZen,735.02,999.72,250,1,2023-04-19,3.9
+1035,Kids Clothing,Toys & Baby,5553,Urbanic Essential Kids T-Shirt,Urbanic,634.73,884.69,50,1,2025-04-02,4.1
+1035,Kids Clothing,Toys & Baby,5554,BasicWear Essential Kids Shorts,BasicWear,183.63,301.92,20,1,2025-06-24,4.9
+1035,Kids Clothing,Toys & Baby,5555,NovaHome Signature Kids T-Shirt,NovaHome,396.72,543.95,50,1,2024-10-01,4.9
+1035,Kids Clothing,Toys & Baby,5556,Urbanic Pro Kids T-Shirt,Urbanic,982.82,1242.3,250,1,2023-05-09,4.2
+1035,Kids Clothing,Toys & Baby,5557,BasicWear Signature Kids T-Shirt,BasicWear,745.16,950.75,50,0,2025-11-13,4.5
+1035,Kids Clothing,Toys & Baby,5558,BasicWear Comfort Kids Frock,BasicWear,398.21,663.83,100,1,2025-04-13,4.0
+1035,Kids Clothing,Toys & Baby,5559,TrendKart Everyday Kids Frock,TrendKart,701.39,985.82,50,1,2024-01-05,2.3
+1037,Car Accessories,Automotive,5560,DailyBasics Ultra Car Cover,DailyBasics,3431.82,5018.83,100,1,2024-04-01,3.9
+1037,Car Accessories,Automotive,5561,PrimeStyle Premium Car Charger,PrimeStyle,2252.83,3442.21,20,1,2024-01-30,4.3
+1037,Car Accessories,Automotive,5562,PureGlow Premium Car Cover,PureGlow,2766.24,3703.18,20,0,2024-06-22,4.6
+1037,Car Accessories,Automotive,5563,Urbanic Deluxe Car Cover,Urbanic,4506.32,8158.94,20,1,2023-12-30,4.4
+1037,Car Accessories,Automotive,5564,HouseCraft Ultra Car Charger,HouseCraft,5693.61,7279.77,100,1,2025-06-23,4.4
+1037,Car Accessories,Automotive,5565,FitPro Deluxe Seat Cover Set,FitPro,6026.7,7559.13,100,1,2025-05-25,4.6
+1037,Car Accessories,Automotive,5566,FitPro Smart Car Charger,FitPro,4664.18,6039.22,5,1,2023-04-23,4.7
+1037,Car Accessories,Automotive,5567,FitPro Smart Car Cover,FitPro,2886.63,4669.34,50,1,2025-10-20,3.7
+1037,Car Accessories,Automotive,5568,PrimeStyle Everyday Car Cover,PrimeStyle,2497.86,3408.74,100,0,2024-11-07,3.9
+1037,Car Accessories,Automotive,5569,GlowUp Deluxe Car Charger,GlowUp,1172.52,1965.5,5,1,2025-06-01,4.2
+1037,Car Accessories,Automotive,5570,ChefMate Everyday Car Charger,ChefMate,4393.73,7043.99,5,1,2025-01-23,4.7
+1037,Car Accessories,Automotive,5571,PrimeStyle Essential Car Charger,PrimeStyle,1593.61,2267.71,20,1,2024-04-08,3.6
+1037,Car Accessories,Automotive,5572,PureGlow Signature Car Charger,PureGlow,5206.41,7669.79,20,1,2025-02-20,4.0
+1037,Car Accessories,Automotive,5573,BasicWear Signature Car Cover,BasicWear,3994.29,6960.56,250,1,2025-10-25,3.4
+1037,Car Accessories,Automotive,5574,NovaHome Comfort Car Cover,NovaHome,7841.88,10002.96,20,1,2023-10-15,3.3
+1037,Car Accessories,Automotive,5575,PureGlow Deluxe Car Cover,PureGlow,681.58,1119.4,50,1,2025-05-10,4.2
+1037,Car Accessories,Automotive,5576,TrendKart Everyday Seat Cover Set,TrendKart,3913.46,5625.9,20,1,2024-07-27,3.8
+1037,Car Accessories,Automotive,5577,TrendKart Premium Car Charger,TrendKart,4586.18,6428.43,50,1,2024-05-29,4.4
+1037,Car Accessories,Automotive,5578,Urbanic Essential Car Charger,Urbanic,4419.41,6164.21,20,1,2024-04-08,3.8
+1037,Car Accessories,Automotive,5579,PrimeStyle Deluxe Seat Cover Set,PrimeStyle,2331.46,3579.4,50,1,2025-02-17,3.9
+1038,Bike Accessories,Automotive,5580,GlowUp Deluxe Riding Gloves,GlowUp,1299.02,2242.19,0,1,2023-10-13,4.8
+1038,Bike Accessories,Automotive,5581,AutoZen Everyday Helmet,AutoZen,1737.66,2871.16,100,1,2025-06-26,4.2
+1038,Bike Accessories,Automotive,5582,PrimeStyle Comfort Bike Cover,PrimeStyle,3391.78,5110.07,20,1,2025-06-03,3.6
+1038,Bike Accessories,Automotive,5583,PureGlow Everyday Riding Gloves,PureGlow,1252.09,1725.87,100,1,2023-04-03,3.6
+1038,Bike Accessories,Automotive,5584,ChefMate Smart Helmet,ChefMate,2761.85,3857.21,50,1,2025-07-27,4.2
+1038,Bike Accessories,Automotive,5585,BasicWear Essential Bike Cover,BasicWear,3037.44,4111.95,5,1,2023-09-17,4.0
+1038,Bike Accessories,Automotive,5586,FitPro Smart Bike Cover,FitPro,681.54,999.26,50,1,2024-05-09,4.0
+1038,Bike Accessories,Automotive,5587,AutoZen Classic Helmet,AutoZen,3168.54,5481.41,250,1,2024-10-12,4.8
+1038,Bike Accessories,Automotive,5588,DailyBasics Smart Riding Gloves,DailyBasics,2451.06,3535.99,20,1,2024-02-08,4.2
+1038,Bike Accessories,Automotive,5589,NovaHome Pro Bike Cover,NovaHome,3514.39,4602.27,5,1,2023-01-31,4.8
+1038,Bike Accessories,Automotive,5590,BasicWear Classic Helmet,BasicWear,2034.71,3383.56,50,1,2025-06-25,4.5
+1038,Bike Accessories,Automotive,5591,HouseCraft Comfort Riding Gloves,HouseCraft,1990.02,2568.69,50,1,2023-07-13,3.4
+1038,Bike Accessories,Automotive,5592,FitPro Premium Helmet,FitPro,1572.16,2696.73,100,1,2023-08-14,5.0
+1038,Bike Accessories,Automotive,5593,AutoZen Comfort Helmet,AutoZen,2606.05,4617.11,50,1,2025-04-29,3.4
+1038,Bike Accessories,Automotive,5594,GlowUp Deluxe Helmet,GlowUp,2627.19,4729.9,50,1,2023-12-29,3.5
+1038,Bike Accessories,Automotive,5595,GlowUp Premium Helmet,GlowUp,2468.16,4083.15,100,1,2025-07-26,3.6
+1038,Bike Accessories,Automotive,5596,PureGlow Premium Bike Cover,PureGlow,1187.21,1866.3,100,1,2025-01-16,5.0
+1038,Bike Accessories,Automotive,5597,Urbanic Smart Bike Cover,Urbanic,2249.16,2870.12,50,1,2023-10-22,4.5
+1038,Bike Accessories,Automotive,5598,Urbanic Comfort Bike Cover,Urbanic,2146.73,3452.59,20,1,2023-01-11,3.5
+1038,Bike Accessories,Automotive,5599,ChefMate Pro Bike Cover,ChefMate,2143.44,3017.31,50,1,2025-10-06,3.5

@@ -1,0 +1,40 @@
+category_id,category_name,parent_category_id,department
+1000,Electronics,,Electronics
+1001,Mobiles & Accessories,1000.0,Electronics
+1002,Laptops & Computers,1000.0,Electronics
+1003,Cameras,1000.0,Electronics
+1004,Wearables,1000.0,Electronics
+1005,Fashion,,Fashion
+1006,Men's Clothing,1005.0,Fashion
+1007,Women's Clothing,1005.0,Fashion
+1008,Footwear,1005.0,Fashion
+1009,Watches & Bags,1005.0,Fashion
+1010,Home & Kitchen,,Home & Kitchen
+1011,Kitchen Appliances,1010.0,Home & Kitchen
+1012,Furniture,1010.0,Home & Kitchen
+1013,Home Decor,1010.0,Home & Kitchen
+1014,Cookware,1010.0,Home & Kitchen
+1015,Beauty & Personal Care,,Beauty & Personal Care
+1016,Skincare,1015.0,Beauty & Personal Care
+1017,Haircare,1015.0,Beauty & Personal Care
+1018,Makeup,1015.0,Beauty & Personal Care
+1019,Fragrances,1015.0,Beauty & Personal Care
+1020,Sports & Fitness,,Sports & Fitness
+1021,Fitness Equipment,1020.0,Sports & Fitness
+1022,Sportswear,1020.0,Sports & Fitness
+1023,Outdoor Gear,1020.0,Sports & Fitness
+1024,Books & Stationery,,Books & Stationery
+1025,Fiction,1024.0,Books & Stationery
+1026,Non-Fiction,1024.0,Books & Stationery
+1027,Office Supplies,1024.0,Books & Stationery
+1028,Grocery,,Grocery
+1029,Staples,1028.0,Grocery
+1030,Snacks & Beverages,1028.0,Grocery
+1031,Packaged Food,1028.0,Grocery
+1032,Toys & Baby,,Toys & Baby
+1033,Toys & Games,1032.0,Toys & Baby
+1034,Baby Care,1032.0,Toys & Baby
+1035,Kids Clothing,1032.0,Toys & Baby
+1036,Automotive,,Automotive
+1037,Car Accessories,1036.0,Automotive
+1038,Bike Accessories,1036.0,Automotive
