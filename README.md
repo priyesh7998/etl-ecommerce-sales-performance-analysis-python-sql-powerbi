@@ -44,7 +44,6 @@ explore in a live dashboard.
 
 | Layer | Tools |
 |---|---|
-| Data generation | Python, Pandas, NumPy, Faker |
 | Data cleaning & transformation | Python, Pandas, Jupyter Notebook |
 | Database | Microsoft SQL Server (T-SQL) |
 | Data modeling | Dimensional modeling (Customer & Product dimensions) + One Big Table (OBT) |
@@ -111,8 +110,6 @@ The final Power BI dashboard includes:
 - A month slicer (Jan–Dec) for time-based filtering
 - A high-priority customer detail table with sales and purchase breakdown
 
-> Add your dashboard screenshot here, e.g.:
-> `![Dashboard](assets/dashboard.png)`
 
 ## ▶️ How to Run This Project
 
@@ -150,10 +147,11 @@ dashboard design — the same workflow used by data analysts and BI
 developers in real e-commerce companies.
 
 ## 🔮 Future Work
-
-- Automate the pipeline with a scheduling tool (e.g., Airflow) for
-  recurring refreshes
-- Add RFM-based customer segmentation as a derived dimension
+ 
+- Build static/exploratory dashboards directly in Python using **Matplotlib
+  and Seaborn** as a lightweight, code-based alternative to the BI tool
+- Extend the Power BI dashboard with **MoM (Month-over-Month) sales** and
+  **YoY / same-period-last-year comparisons** for trend tracking
 - Extend the dashboard with cohort/retention analysis and return-rate trends
 - Migrate the OBT build step into SQL Server stored procedures for
   in-database transformation
