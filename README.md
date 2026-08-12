@@ -2,7 +2,7 @@
 
 **End-to-end e-commerce seller performance analytics on a synthetic dataset — Python (Pandas) ETL → SQL Server (dimensional model + One Big Table) → Power BI dashboard**
 
-![Status](https://img.shields.io/badge/status-complete-brightgreen) ![Python](https://img.shields.io/badge/Python-Pandas-blue) ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
+![Status](https://github.com/priyesh7998/etl-ecommerce-sales-performance-analysis-python-sql-powerbi/blob/main/dashboard_img/Screenshot%202026-08-13%20033704.png) ![Python](https://img.shields.io/badge/Python-Pandas-blue) ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
 
 ---
 
@@ -118,8 +118,8 @@ The final Power BI dashboard includes:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/ETL-Ecommerce-Sales-Analysis-Python-SQL-PowerBI.git
-cd ETL-Ecommerce-Sales-Analysis-Python-SQL-PowerBI
+git clone https://github.com/priyesh7998/etl-ecommerce-sales-performance-analysis-python-sql-powerbi.git
+cd etl-ecommerce-sales-performance-analysis-python-sql-powerbi
 
 # 2. Set up the Python environment
 pip install pandas numpy faker jupyter
@@ -162,19 +162,20 @@ developers in real e-commerce companies.
 
 ## 👤 Author
 
-**Madara**
-BCA student & self-taught web developer | Data Analytics enthusiast
-[GitHub](https://github.com/Priyesh47data)
+**Priyesh Kumar** <br>
+Email : priyesh9080@gmail.com <br>
+[Linkedin](https://linkedin.com/in/priyesh7998) <br>
+[Portfolio](https://lukasha.online) <br>
+[GitHub](https://github.com/priyesh7998) <br>
 
 ## 📁 Repository Contents
 
 ```
 ETL-Ecommerce-Sales-Analysis-Python-SQL-PowerBI/
 ├── data/                  # Synthetic CSVs (customers, products, categories,
-│                          #   orders, order_items, payments)
-├── notebooks/             # Jupyter notebook — cleaning & transformation
-├── sql/                   # Table creation scripts + analysis queries
+├── cleaned_data_for_analytics/   # Cleaned data & OBT(One Big Table) Of sales 
+├── notebook/                  # Table creation scripts + analysis queries
 ├── dashboard/             # Power BI .pbix file
-├── assets/                # Dashboard screenshots
+├── dashboard_img/        # Dashboard screenshots
 └── README.md
 ```
