@@ -2,6 +2,20 @@
 
 **End-to-end e-commerce seller performance analytics on a synthetic dataset — Python (Pandas) ETL → SQL Server (dimensional model + One Big Table) → Power BI dashboard**
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Problem Statement](#-problem-statement)
+- [Tools & Technologies](#️-tools--technologies)
+- [Methodology](#-methodology)
+- [Key Insights](#-key-insights)
+- [Dashboard](#️-dashboard)
+- [How to Run This Project](#️-how-to-run-this-project)
+- [Results & Conclusion](#-results--conclusion)
+- [Future Work](#-future-work)
+- [Author](#-author)
+- [Repository Contents](#-repository-contents)
+
 ![Status](https://github.com/priyesh7998/etl-ecommerce-sales-performance-analysis-python-sql-powerbi/blob/main/dashboard_img/Screenshot%202026-08-13%20033704.png) ![Python](https://img.shields.io/badge/Python-Pandas-blue) ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
 
 ---
@@ -110,7 +124,6 @@ The final Power BI dashboard includes:
 - A month slicer (Jan–Dec) for time-based filtering
 - A high-priority customer detail table with sales and purchase breakdown
 
-
 ## ▶️ How to Run This Project
 
 ```bash
@@ -147,7 +160,7 @@ dashboard design — the same workflow used by data analysts and BI
 developers in real e-commerce companies.
 
 ## 🔮 Future Work
- 
+
 - Build static/exploratory dashboards directly in Python using **Matplotlib
   and Seaborn** as a lightweight, code-based alternative to the BI tool
 - Extend the Power BI dashboard with **MoM (Month-over-Month) sales** and
