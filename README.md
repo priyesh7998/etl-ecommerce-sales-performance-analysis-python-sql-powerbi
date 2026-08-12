@@ -16,7 +16,7 @@
 - [Author](#-author)
 - [Repository Contents](#-repository-contents)
 
-![Status](https://github.com/priyesh7998/etl-ecommerce-sales-performance-analysis-python-sql-powerbi/blob/main/dashboard_img/Screenshot%202026-08-13%20033704.png) ![Python](https://img.shields.io/badge/Python-Pandas-blue) ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
+![Status](https://github.com/priyesh7998/etl-ecommerce-sales-performance-analysis-python-sql-powerbi/blob/main/dashboard_img/ecommerce_sales_analysis_dashboard.png) ![Python](https://img.shields.io/badge/Python-Pandas-blue) ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-CC2927) ![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-F2C811)
 
 ---
 
