@@ -1,0 +1,28 @@
+2026-08-12 13:01:20,901 - INFO - Ingesting categories.csv in table categories in DB.
+2026-08-12 13:01:21,024 - INFO - Ingesting customers.csv in table customers in DB.
+2026-08-12 13:01:21,261 - INFO - Ingesting orders.csv in table orders in DB.
+2026-08-12 13:01:21,700 - INFO - Ingesting order_items.csv in table order_items in DB.
+2026-08-12 13:01:21,894 - INFO - Ingesting payments.csv in table payments in DB.
+2026-08-12 13:01:21,930 - INFO - Ingesting products.csv in table products in DB.
+2026-08-12 13:10:09,838 - INFO - Ingesting categories.csv in table categories in DB.
+2026-08-12 13:10:09,964 - INFO - Ingesting customers.csv in table customers in DB.
+2026-08-12 13:10:10,206 - INFO - Ingesting orders.csv in table orders in DB.
+2026-08-12 13:10:10,690 - INFO - Ingesting order_items.csv in table order_items in DB.
+2026-08-12 13:10:10,884 - INFO - Ingesting payments.csv in table payments in DB.
+2026-08-12 13:10:10,938 - INFO - Ingesting products.csv in table products in DB.
+2026-08-12 13:12:59,019 - INFO - Ingesting categories.csv into table categories in DB.
+2026-08-12 13:12:59,153 - INFO - Ingesting customers.csv into table customers in DB.
+2026-08-12 13:12:59,403 - INFO - Ingesting orders.csv into table orders in DB.
+2026-08-12 13:12:59,938 - INFO - Ingesting order_items.csv into table order_items in DB.
+2026-08-12 13:13:00,137 - INFO - Ingesting payments.csv into table payments in DB.
+2026-08-12 13:13:00,197 - INFO - Ingesting products.csv into table products in DB.
+2026-08-12 13:13:00,197 - INFO - Total Time Taken In Data Ingestion Is : 1.2217562198638916 Seconds
+2026-08-12 14:37:56,547 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-12 14:37:56,577 - WARNING - No such comm: eb7dc748-4431-47cd-b407-6c35f4bbf036
+2026-08-12 14:37:56,581 - DEBUG - Current comms: []
+2026-08-12 15:42:38,891 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-12 15:42:38,923 - WARNING - No such comm: a9e45242-2872-41c3-bdce-9437d54c8ad4
+2026-08-12 15:42:38,925 - DEBUG - Current comms: []
+2026-08-12 16:34:24,042 - ERROR - No such comm target registered: jupyter.widget.control
+2026-08-12 16:34:24,056 - WARNING - No such comm: 4a063eb5-96ef-4dae-92f9-d69894331588
+2026-08-12 16:34:24,056 - DEBUG - Current comms: []

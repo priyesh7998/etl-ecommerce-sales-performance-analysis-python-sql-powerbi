@@ -1,0 +1,946 @@
+2026-08-12 23:10:32 | INFO | Creating SQL Server connection...
+2026-08-12 23:10:33 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:10:33 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:10:33 | ERROR | Error uploading data to SQL Server: name 'ecommerce_supplier_sales' is not defined
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\2281255135.py", line 66, in <module>
+    len(ecommerce_supplier_sales)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ecommerce_supplier_sales' is not defined
+2026-08-12 23:10:42 | INFO | Creating SQL Server connection...
+2026-08-12 23:10:42 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:10:42 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:10:42 | ERROR | Error uploading data to SQL Server: name 'ecommerce_supplier_sales' is not defined
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\2281255135.py", line 66, in <module>
+    len(ecommerce_supplier_sales)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ecommerce_supplier_sales' is not defined
+2026-08-12 23:12:21 | INFO | Creating SQL Server connection...
+2026-08-12 23:12:21 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:12:21 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:12:21 | ERROR | Error uploading data to SQL Server: name 'sales_info' is not defined
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\3211663014.py", line 66, in <module>
+    len(sales_info)
+        ^^^^^^^^^^
+NameError: name 'sales_info' is not defined
+2026-08-12 23:15:16 | INFO | Creating SQL Server connection...
+2026-08-12 23:15:16 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:15:16 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:15:16 | ERROR | Error uploading data to SQL Server: name 'sales_info' is not defined
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\3211663014.py", line 66, in <module>
+    len(sales_info)
+        ^^^^^^^^^^
+NameError: name 'sales_info' is not defined
+2026-08-12 23:17:37 | INFO | Creating SQL Server connection...
+2026-08-12 23:17:37 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:17:37 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:17:37 | INFO | Rows to upload: 28536
+2026-08-12 23:17:38 | ERROR | Error uploading data to SQL Server: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\3211663014.py", line 69, in <module>
+    sales_info.to_sql(
+    ~~~~~~~~~~~~~~~~~^
+        name=TABLE_NAME,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        chunksize=500
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\core\generic.py", line 3087, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 2008, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 1912, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 995, in create
+    self._execute_create()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 981, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\schema.py", line 1288, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2459, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-12 23:19:40 | INFO | Creating SQL Server connection...
+2026-08-12 23:19:40 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:19:40 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:19:40 | INFO | Rows to upload: 28536
+2026-08-12 23:19:40 | ERROR | Error uploading data to SQL Server: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\352822784.py", line 69, in <module>
+    sales_info.to_sql(
+    ~~~~~~~~~~~~~~~~~^
+        name=TABLE_NAME,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        chunksize=500
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\core\generic.py", line 3087, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 2008, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 1912, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 995, in create
+    self._execute_create()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 981, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\schema.py", line 1288, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2459, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-12 23:21:23 | INFO | Creating SQL Server connection...
+2026-08-12 23:21:23 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:21:23 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:21:23 | INFO | Rows to upload: 28536
+2026-08-12 23:21:23 | ERROR | Error uploading data to SQL Server: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\2206420458.py", line 69, in <module>
+    complete_sales_info.to_sql(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name=TABLE_NAME,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        chunksize=500
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\core\generic.py", line 3087, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 2008, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 1912, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 995, in create
+    self._execute_create()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 981, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\schema.py", line 1288, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2459, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-12 23:21:54 | INFO | Creating SQL Server connection...
+2026-08-12 23:21:54 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:21:54 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:21:54 | INFO | Rows to upload: 28536
+2026-08-12 23:21:54 | ERROR | Error uploading data to SQL Server: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\2206420458.py", line 69, in <module>
+    complete_sales_info.to_sql(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name=TABLE_NAME,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        chunksize=500
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\core\generic.py", line 3087, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 2008, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 1912, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 995, in create
+    self._execute_create()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 981, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\schema.py", line 1288, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2459, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-12 23:23:35 | INFO | Creating SQL Server connection...
+2026-08-12 23:23:35 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:23:35 | INFO | Starting data upload: godl.complete_sales_info
+2026-08-12 23:23:35 | INFO | Rows to upload: 28536
+2026-08-12 23:23:35 | ERROR | Error uploading data to SQL Server: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.complete_sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.ProgrammingError: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\priye\AppData\Local\Temp\ipykernel_21200\3970544355.py", line 69, in <module>
+    complete_sales_info.to_sql(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name=TABLE_NAME,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        chunksize=500
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\core\generic.py", line 3087, in to_sql
+    return sql.to_sql(
+           ~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        method=method,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 2008, in to_sql
+    table = self.prep_table(
+        frame=frame,
+    ...<5 lines>...
+        dtype=dtype,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 1912, in prep_table
+    table.create()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 995, in create
+    self._execute_create()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\pandas\io\sql.py", line 981, in _execute_create
+    self.table.create(bind=self.pd_sql.con)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\schema.py", line 1288, in create
+    bind._run_ddl_visitor(ddl.SchemaGenerator, self, checkfirst=checkfirst)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2459, in _run_ddl_visitor
+    ).traverse_single(element)
+      ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\visitors.py", line 661, in traverse_single
+    return meth(obj, **kw)
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 1022, in visit_table
+    )._invoke_with(self.connection)
+      ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 321, in _invoke_with
+    return bind.execute(self)
+           ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\sql\ddl.py", line 187, in _execute_on_connection
+    return connection._execute_ddl(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1530, in _execute_ddl
+    ret = self._execute_context(
+        dialect,
+    ...<4 lines>...
+        compiled,
+    )
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\priye\anaconda99\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (pyodbc.ProgrammingError) ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The specified schema name "godl" either does not exist or you do not have permission to use it. (2760) (SQLExecDirectW)')
+[SQL: 
+CREATE TABLE godl.complete_sales_info (
+	customer_id BIGINT NULL, 
+	order_id BIGINT NULL, 
+	order_date VARCHAR(max) NULL, 
+	order_status VARCHAR(max) NULL, 
+	order_channel VARCHAR(max) NULL, 
+	shipping_state VARCHAR(max) NULL, 
+	shipping_city VARCHAR(max) NULL, 
+	shipping_fee FLOAT(53) NULL, 
+	order_total FLOAT(53) NULL, 
+	order_subtotal FLOAT(53) NULL, 
+	quantity BIGINT NULL, 
+	unit_price FLOAT(53) NULL, 
+	discount_percent BIGINT NULL, 
+	line_total FLOAT(53) NULL, 
+	payment_method VARCHAR(max) NULL, 
+	payment_status VARCHAR(max) NULL, 
+	amount FLOAT(53) NULL, 
+	transaction_fee FLOAT(53) NULL
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-12 23:30:38 | INFO | Creating SQL Server connection...
+2026-08-12 23:30:38 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:30:38 | INFO | Starting data upload: godl.complete_sales_info
+2026-08-12 23:30:38 | INFO | Rows to upload: 28536
+2026-08-12 23:30:49 | INFO | Data uploaded successfully to [godl].[complete_sales_info]
+2026-08-12 23:32:14 | INFO | Creating SQL Server connection...
+2026-08-12 23:32:14 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:32:14 | INFO | Starting data upload: godl.complete_sales_info
+2026-08-12 23:32:14 | INFO | Rows to upload: 28536
+2026-08-12 23:32:27 | INFO | Data uploaded successfully to [godl].[complete_sales_info]
+2026-08-12 23:32:59 | INFO | Creating SQL Server connection...
+2026-08-12 23:32:59 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:32:59 | INFO | Starting data upload: godl.sales_info
+2026-08-12 23:32:59 | INFO | Rows to upload: 28536
+2026-08-12 23:33:11 | INFO | Data uploaded successfully to [godl].[sales_info]
+2026-08-12 23:36:15 | INFO | Creating SQL Server connection...
+2026-08-12 23:36:15 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:36:15 | INFO | Starting data upload: godl.product_info
+2026-08-12 23:36:15 | INFO | Rows to upload: 600
+2026-08-12 23:36:16 | INFO | Data uploaded successfully to [godl].[product_info]
+2026-08-12 23:37:55 | INFO | Creating SQL Server connection...
+2026-08-12 23:37:55 | INFO | SQLAlchemy engine created successfully.
+2026-08-12 23:37:55 | INFO | Starting data upload: godl.customer_info
+2026-08-12 23:37:55 | INFO | Rows to upload: 2006
+2026-08-12 23:38:01 | INFO | Data uploaded successfully to [godl].[customer_info]
+2026-08-13 00:23:54 | INFO | Creating SQL Server connection...
+2026-08-13 00:23:54 | INFO | SQLAlchemy engine created successfully.
+2026-08-13 00:23:54 | INFO | Starting data upload: godl.sales_info
+2026-08-13 00:23:54 | INFO | Rows to upload: 28536
+2026-08-13 00:24:03 | INFO | Data uploaded successfully to [godl].[sales_info]
